@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal"
+    android:background="@drawable/second_screen" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10sp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:gravity="center"
+           >
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ib_chofer"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/ib_chofer"
+                android:gravity="center_horizontal"
+                android:text="SOY CONDUCTOR"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:alpha="0.001"
+                android:layout_width="140sp"
+                android:layout_height="180sp"
+                android:id="@+id/ib_chofer"
+                android:onClick="chofer"
+                android:layout_below="@+id/textView"
+                android:background="@drawable/chofer" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOY PASAJERO"
+                android:id="@+id/textView2"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:gravity="center_horizontal" />
+
+            <ImageButton
+                android:alpha="0.001"
+                android:id="@+id/ib_pasajero"
+                android:layout_width="150sp"
+                android:layout_height="160sp"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:background="@drawable/pasajero"
+                android:onClick="pasajero" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

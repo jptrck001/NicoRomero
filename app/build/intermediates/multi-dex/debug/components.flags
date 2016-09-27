@@ -1,0 +1,121 @@
+-injars '/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar'
+-outjars '/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/multi-dex/debug/componentClasses.jar'
+
+-libraryjars /Users/raulstriglio/Library/Android/sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration '/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/multi-dex/debug/components.flags'
+
+
+-keep class com.adedo.ADedo {
+    <init>();
+}
+
+-keep class com.adedo.Chofer {
+    <init>();
+}
+
+-keep class com.adedo.Pasajero {
+    <init>();
+}
+
+-keep class com.adedo.Viaje {
+    <init>();
+}
+
+-keep class com.adedo.Confirmacion_Viaje {
+    <init>();
+}
+
+-keep class com.adedo.Cuando_viajas {
+    <init>();
+}
+
+-keep class com.adedo.Lista_viajes {
+    <init>();
+}
+
+-keep class com.adedo.Lista_calificaciones {
+    <init>();
+}
+
+-keep class com.adedo.Calificacion {
+    <init>();
+}
+
+-keep class com.adedo.Principal {
+    <init>();
+}
+
+-keep class com.adedo.Terminos {
+    <init>();
+}
+
+-keep class com.adedo.Comentarios {
+    <init>();
+}
+
+-keep class com.adedo.Chofer_viaje {
+    <init>();
+}
+
+-keep class com.adedo.ViajesFechaActual {
+    <init>();
+}
+
+-keep class com.adedo.ViajeActualPasajero {
+    <init>();
+}
+
+-keep class com.adedo.Pasajero_viaje {
+    <init>();
+}
+
+-keep class com.adedo.Calendar_activity {
+    <init>();
+}
+
+-keep class com.adedo.DayTrips_Activity {
+    <init>();
+}
+
+-keep class com.adedo.CrearViajePasajero {
+    <init>();
+}
+
+-keep class com.facebook.FacebookActivity {
+    <init>();
+}
+
+-keep class com.facebook.FacebookContentProvider {
+    <init>();
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

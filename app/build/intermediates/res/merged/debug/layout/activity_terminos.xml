@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Terminos"
+    android:background="#fff" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+         /// Heading goes here
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="12100dp"
+                android:textColor="#000"
+                android:text="I.- INTRODUCCIÓN Y OBJETO: \n
+ROMERO, Nicolás Fabián es una persona física con C.U.I.L. 20314742150, con domicilio en 1ro de mayo 2583, ciudad de San Justo, Santa Fe es propietario de un software desarrollado como una aplicación web para teléfonos móviles (en adelante APLICACIÓN WEB) cuyo nombre registrado como marca es “A Dedo”, en adelante: “A DEDO”, que actúa en los ámbitos de la distribución y comercio de bienes y servicios; y a través de la cual pone determinada información a disposición de sus usuarios.\n
+
+
+A través de la aplicación web, A DEDO facilita a sus Usuarios el acceso y la utilización de diversos servicios y contenidos (en adelante, los 'Servicios') puestos a disposición por A DEDO. Los presentes términos y condiciones tienen por objeto establecer y regular el acceso general a la aplicación, así como a los distintos contenidos y servicios prestados por A DEDO desde y/o a través del mismo.
+Tanto el acceso como la utilización general de la aplicación atribuyen la condición de usuario del mismo (en adelante, el 'Usuario'), implicando necesariamente la aceptación plena y sin reservas de todas y cada una de las disposiciones incluidas en los términos y condiciones generales de acceso y uso del mismo.\n
+El Usuario queda expresamente apercibido y acepta que estas condiciones podrán experimentar variaciones en el futuro a libre criterio de A Dedo y sin obligación alguna de aviso previo por su parte. En consecuencia, será de la sola responsabilidad del Usuario verificar los términos y condiciones vigentes en cada una de las ocasiones en que se proponga utilizar la APLICACION WEB.\n
+DEFINICIONES: A efectos de los presentes términos y condiciones de uso los siguientes términos tendrán el sentido que se indica a continuación:\n
+
+∙      “Compartir Coche” significa compartir un vehículo en un trayecto previamente proyectado por un Conductor, compartiendo los gastos asociados al trayecto sin que en ningún caso se produzca ganancia económica para el Conductor.\n
+∙      “Condiciones”: significa los presentes Términos y Condiciones Generales de uso, incluyendo las Condiciones Particulares que en su caso pudieran resultar de aplicación y las Normas de Buena Conducta que se encuentren vigentes en cada momento.\n
+∙      'Cantidad por compartición de gastos': la cantidad acordada entre el Conductor y el Pasajero en relación con el trayecto que será pagadera por el Pasajero como su contribución al coste del mismo.\n
+∙      'Conductor': significa la persona que utilizando la aplicación WEB ofrece compartir un trayecto en coche con un Pasajero y trasportarlo a un destino dado en un tiempo acordado entre ambos a cambio de la Cantidad por compartición de gastos.\n
+∙      'Usuario': se refiere a un Pasajero, Conductor o cualquier otro usuario de la aplicación WEB.\n
+       'Pasajero': significa una persona que ha aceptado una oferta de ser trasladado por un Conductor en un trayecto.\n
+∙      'Servicio': se refiere a cualquier servicio provisto por la APLICACION WEB a cualquier Usuario.\n
+∙      'Trayecto': significa un determinado recorrido en Coche privado respecto del cual Conductor y Pasajero han acordado una Cantidad por compartición de gastos a través de la APLICACION WEB.\n
+∙      'Cuenta del Usuario': significa una cuenta de usuario registrado en la APLICACION WEB y utilizada para acceder al servicio provisto por la APLICACION WEB.\n
+∙      'Vehículo' significa el vehículo ofrecido por un Conductor para Compartir Coche en un Trayecto.\n
+.      'Servicio de RESERVA ON-LINE': significa el servicio de puesta en contacto de usuarios proporcionado por A DEDO a través de la APLICACION WEB que puede conllevar la obligación de pago para la utilización del mismo.\n
+\n
+II.- NIVELES DE ACCESO Y REGISTRO DE USUARIOS:\n
+Con carácter general el mero acceso a la APLICACION WEB podrá ser libre.\n
+A todos los efectos, el acceso a la APLICACION WEB a través de identificación de Usuario por medio de redes sociales se considerará registro de Usuario y conlleva necesariamente la aceptación sin reserva u objeción alguna de los presentes términos y condiciones generales.\n
+Asimismo, A DEDO podrá poner a disposición de los Usuarios determinados Servicios para cuya utilización pudiera requerir la cumplimentación de registros adicionales y/o satisfacción de determinadas contraprestaciones dinerarias. En su caso, dicho registro se efectuará en la forma expresamente indicada en el propio servicio o en las condiciones particulares que lo regulen.\n
+La condición de Usuario de A DEDO requiere mayoría de edad legal. El Usuario manifiesta y declara -en todo caso-, contar con al menos 18 años de edad.\n
+El Usuario garantiza la veracidad de la anterior manifestación, así como del conjunto de los datos de registro facilitados a A DEDO y es responsable de mantenerlos completamente actualizados mientras dure su condición del mismo. En todo caso el Usuario será el único responsable de las manifestaciones falsas o inexactas que realice y de los perjuicios que cause a A DEDO o a terceros por la información que facilite.
+A DEDO se reserva el derecho de negar el alta en la APLICACION WEB. Esta negativa no comportará derecho a indemnización alguna.\n
+Una vez se complete satisfactoriamente el proceso de registro, A DEDO dará de alta al Usuario en su base de datos de Usuarios registrados. Una cuenta será generada con su dirección de correo electrónico y “palabra clave de acceso” asociada para cada Usuario.\n
+ \n
+III.- OBLIGACIONES DEL USUARIO:\n
+Serán obligaciones del Usuario, sin detrimento de las que surjan a partir del clausulado de este documento, las siguientes:\n
+.- El Usuario vendrá obligado a garantizar la veracidad y exactitud de los datos de registro introducidos en los sistemas de información de A DEDO y llevar a cabo cuantas actualizaciones de los mismos fueran necesarias. En todo caso el Usuario será el único responsable de las manifestaciones falsas o inexactas que realice y de los perjuicios que cause a A DEDO o a terceros por la información que facilite, comprometiéndose expresamente a mantener indemnes a A DEDO y/o a cualesquiera terceros por los daños y perjuicios que se pudieran derivar de la inexactitud o falta de veracidad de dichos datos.\n
+.- Custodiar el “usuario” y la “palabra clave de acceso” facilitados por A DEDO al Usuario con diligencia, impidiendo el acceso de terceras personas no autorizados a los mismos y por tanto asegurando su confidencialidad.\n
+.- Notificar a A DEDO con carácter inmediato cualquier indicio de la existencia de una violación en la seguridad de la APLICACION WEB, de usos inapropiados o prohibidos de los servicios prestados desde el mismo, o de fallos de seguridad de cualquier índole.\n
+.- Hacer buen uso de los contenidos, información y servicios prestados desde o a través de la APLICACION WEB, conforme a la ley, la buena fe y a las buenas costumbres generalmente aceptadas, comprometiéndose expresamente a:\n
+      • Abstenerse de realizar prácticas o usos de los servicios con fines ilícitos, fraudulentos, lesivos de derechos o intereses de A DEDO o de terceros, infractores de las normas contenidas en el presente contrato o en las Condiciones Particulares que en su caso regulen cualquiera de los servicios prestados desde o a través de la APLICACION WEB.\n
+      • Abstenerse de hacer una utilización profesional o comercial del servicio de puesta en contacto de usuarios para la compartición de coche y de gastos asociados a traslados. A estos efectos el usuario queda expresamente apercibido de que A DEDO prohíbe la utilización de la APLICACION WEB para ninguna modalidad de uso profesional y/o comercial de la misma. Esto es, la APLICACION WEB ofrece una plataforma de puesta en contacto y comunicación entre particulares para la compartición de gastos de sus trayectos en coches privados. Se prohíbe expresamente la pretensión de obtención de beneficio alguno a través de la APLICACION WEB y/o de los acuerdos a que puedan llegar los usuarios a través de la APLICACION WEB.\n
+      • Abstenerse de mantener varias cuentas de usuario para una única identidad y abstenerse igualmente de suplantar a ningún otro usuario en la APLICACION WEB. Esto es: los usuarios se comprometen a mantener una única cuenta de usuario en la APLICACION WEB y a no actuar a través de identidades de otros o identidades simuladas.\n
+      • Comportarse de forma razonable y educada en cualesquiera acuerdos de compartición de coches y/o gastos asociados para traslados por carretera, comprometiéndose expresamente el usuario a observar en todo momento las “NORMAS DE BUENA CONDUCTA” que se indican a continuación en la estipulación IV siguiente.\n
+      • Observar y en general cumplir de forma escrupulosa con toda la normativa que resultara de aplicación en relación con la compartición del trayecto en coche y, en particular, con el código de circulación y cuantas normas relacionadas resultarán de aplicación.\n
+      • Abstenerse de realizar cualquier tipo de acción que pudiera inutilizar, sobrecargar o dañar sistemas, equipos o servicios de la APLICACION WEB o accesibles directa o indirectamente a través de la APLICACION WEB.\n
+      • Respetar los derechos de propiedad intelectual e industrial de A DEDO y de terceros sobre los contenidos, información y servicios prestados desde o a través de la APLICACION WEB, absteniéndose con carácter general de copiar, distribuir, reproducir o comunicar en forma alguna los mismos a terceros, de no mediar autorización expresa y por escrito de A DEDO o de los titulares de dichos derechos.\n
+ \n
+IV.- NORMAS DE BUENA CONDUCTA\n
+Las disposiciones de la presente estipulación constituyen las 'NORMAS DE BUENA CONDUCTA' del uso compartido de un coche, concertado a través del servicio de publicación de información para viajar en coche compartido de la APLICACION WEB. La utilización de la APLICACION WEB para la concertación de trayecto compartido en coche comprende la completa aceptación sin reserva alguna de las presentes NORMAS DE BUENA CONDUCTA.\n
+IV.1 Aspectos esenciales de la publicación de información para compartición de coche en el APLICACION WEB de COMUTO\n
+En el supuesto de desear utilizar el servicio, el usuario se compromete publicar en la APLICACION WEB trayectos que corresponden a desplazamientos individuales realmente previstos por el mismo. Esto es, los desplazamientos obedecerán a necesidades individuales particulares reales (no ficticias) del usuario. El usuario queda apercibido de que cualesquiera informaciones del tipo: precios, itinerario (incluyendo puntos de salida y de llegada), la presencia o la tolerancia de mascotas, aspectos relativos al consumo de tabaco o a la utilización de música en el coche, y en general todos los detalles logísticos, de aspectos relativos a comodidad o preferencias específicas u opiniones sobre un trayecto o sobre el autor del anuncio son proporcionadas directamente por los usuarios y no son de ninguna manera responsabilidad de A DEDO.\n
+Todos los usuarios son responsables de garantizar que la información proporcionada es correcta y asegurar que se cumple con los términos acordados entre las partes. COMUTO no se responsabiliza y no responderá de la exactitud de esta información y del incumplimiento de las condiciones acordadas entre los usuarios.\n
+IV.2 Seguridad\n
+Cada conductor se compromete a conducir de forma prudente, con pleno respeto a la normativa vigente y sin poner en riesgo la seguridad. Especialmente el conductor se compromete a no consumir ningún tipo de substancias que pudieran afectar a su capacidad de conducir con anterioridad y/o durante el trayecto.\n
+El pasajero por su parte se compromete a comportarse de forma cortés, educada y razonable, a no distraer la atención del conductor o alterar su conducta y, en general, a observar la normativa vigente por todo el espacio de duración del trayecto.\n
+Los usuarios deben observar precauciones adecuadas incluso en relación con la información que facilita en la web o directamente a los usuarios. El usuario debe recordar que no conoce la identidad real de los usuarios que pueda encontrar en la APLICACION WEB y no debe presumir como cierta la identidad manifestada de los terceros con los que pudiera haber acordado la compartición de coche.\n
+No se debe proporcionar información financiera o dineraria directamente al resto de los usuarios.\n
+Sin perjuicio de la posibilidad o necesidad de acudir a las autoridades, el usuario deberá informar de cualquier tipo de abuso o acoso de forma inmediata a través de la APLICACION WEB en la siguiente dirección: adedoaplicacion@outlook.com Si el usuario no estuviera seguro de si debe denunciar el abuso, deberá en todo caso comunicarlo a A DEDO.\n
+Cuando los usuarios acuerden un trayecto en coche compartido, deben tener presente que A DEDO recomienda que los mismos se encuentren siempre en espacios públicos, por ejemplo, en una estación de servicio. Además, A DEDO recomienda que los usuarios lleven siempre su teléfono móvil.\n
+Los usuarios deben valorar si es apropiado dar información detallada del trayecto en coche compartido a un amigo o pariente o en general tercero de su confianza, como el lugar de partida, el destino o el tipo de coche. Además, los usuarios deben valorar si resulta indicado o aconsejable enviar un mensaje de texto a un amigo o familiar con el nombre o fotografía de los usuarios con los que han viajado (si el usuario es pasajero) y el número de matrícula, siempre mediando autorización de los usuarios afectados, salvo en supuestos de emergencia. Los usuarios deberían siempre comprobar la identidad de los otros usuarios con los que van a compartir coche antes de viajar.\n
+Los usuarios no se opondrán u ofenderán porque algún usuario tome medidas razonables encaminadas a garantizar su propia seguridad, incluyendo las descritas anteriormente.\n
+IV.3 Transparencia\n
+Cada usuario debe ser capaz de presentar de inmediato su documentación a otro usuario, en el caso de que éste lo solicite. Para el conductor, esta documentación consiste en la propia del coche, del certificado de seguro y de su carnet de conducir. Para un pasajero que conduce, se trata de su carnet de conducir.\n
+En beneficio de todos y en aras de un nivel de seguridad razonable, todos los usuarios se comprometen a proporcionar toda la información y documentación razonable que otro usuario le solicite para compartir coche.\n
+Las identidades reales del pasajero y conductor deben corresponder con las ofrecidas a en la APLICACION WEB, así como lo acordado entre las partes. Un pasajero o conductor puede negarse a viajar en coche compartido si la identidad de un usuario no se corresponde.\n
+A DEDO recuerda a los usuarios que la APLICACION WEB no puede ser utilizada para finalidades comerciales o profesionales las cuales se encuentran expresamente prohibidas.\n
+IV.4 Gastos\n
+El pasajero participa en los gastos del trayecto según el importe acordado entre los usuarios antes de la salida.\n
+La contribución total que recibe el conductor por parte de los pasajeros no debe superar el total de los gastos del conductor para cada trayecto compartido concreto.\n
+En ningún caso el conductor podrá obtener (o pretender obtener) beneficio económico alguno a través de ninguna transacción con otro usuario en relación con la compartición de coche para el trayecto, con el servicio de puesta en contacto operado a través de la APLICACION WEB, o en general, con ningún aspecto derivado de dicha puesta en contacto.\n
+IV.5 Puntualidad\n
+Los usuarios se comprometen a respetar el horario acordado entre ellos.\n
+Todos los usuarios se comprometen a cumplir los tiempos y lugares acordados para la salida. El conductor y el pasajero deben presentarse en el lugar y la hora acordados para la salida. Después de un período de cortesía de 30 minutos después de la hora programada para la partida, la persona que no acude será considerada responsable de la cancelación siéndole de aplicación la política de cancelación vigente en cada momento.\n
+IV.6 Normas y Legislación\n
+Tanto el conductor como el vehículo deben cumplir escrupulosamente con las normas del código de circulación y/o ley de tráfico en vigor y demás normativa que resultara de aplicación en aquellos territorios por los que transcurra el trayecto compartido y, en particular las normativas Europeas, Nacionales y locales. Además, ambas partes, conductor y pasajero, se comprometen a no llevar ninguna sustancia u objeto peligroso o ilegal en el trayecto compartido.\n
+IV.7 Higiene\n
+Cada usuario debe disponer y observar unas condiciones de higiene personal razonables y apropiadas, al inicio y durante el trayecto compartido, de forma que no cause u origine molestias al resto de usuarios.\n
+IV.8 Condiciones y Confort\n
+En general, cada una de las siguientes condiciones tiene que ser acordada entre el conductor y los pasajeros antes de iniciar el trayecto compartido: participación en gastos, horarios, derecho o no a llevar equipaje, piezas de equipaje –en su caso- permitidas, número de personas, aspectos relativos al consumo de tabaco, compañía de mascotas, música en el coche, lugares de recogida y de llegada.\n
+IV.9 Información publicada en la web\n
+Ningún usuario de la web puede publicar en ella ningún tipo de difamación o información ofensiva o que dañe o pudiera dañar a terceros. A DEDO eliminará a su solo criterio cualquier información que sea contraria a esta política tan pronto como tenga conocimiento de la existencia de contenidos que resulten infractores de esta norma. Los conductores y pasajeros conocen y aceptan que el resto de usuarios podrán emitir valoraciones sobre ellos y que las valoraciones podrán ser publicadas en el APLICACION WEB. Igualmente, los usuarios también aceptan que su nivel de experiencia será calculada y establecida y/o publicada en la APLICACION WEB de acuerdo con el criterio estipulado por A DEDO.\n
+ \n
+V.- PROPIEDAD INTELECTUAL E INDUSTRIAL:\n
+Todo el software y los contenidos del APLICACION WEB, incluidos: código html, textos, animaciones, imágenes etc. así como las marcas, nombres comerciales y/o signos distintivos mostrados, son propiedad de A DEDO o de terceros y están protegidos por las leyes nacionales e internacionales de propiedad intelectual e industrial.\n
+Cualquier uso ajeno a la APLICACION WEB, incluida la reproducción, modificación, distribución, transmisión, reedición, arreglos o representación de cualesquiera elementos del mismo está estrictamente prohibido salvo consentimiento expreso escrito de A DEDO.\n
+ \n
+VI.- EXCLUSIÓN DE GARANTÍAS:\n
+El acceso a la APLICACION WEB no implica ningún tipo de garantía, que expresamente se rehúsa por A DEDO, respecto a la calidad, veracidad, exactitud, licitud, actualidad o vigencia, así como la utilidad o adecuación a finalidad alguna de quien acceda a ellas. Tanto el acceso a la APLICACION WEB como el uso que pueda hacerse de la información y contenidos incluidos en el mismo o que sea accesible desde el mismo, se efectúa bajo la exclusiva responsabilidad del Usuario.\n
+A DEDO no responderá en ningún caso y en ninguna medida, ni por daños directos ni indirectos, ni por daño emergente ni por lucro cesante, por los eventuales perjuicios derivados del uso de la información y contenidos de la APLICACION WEB o accesibles desde o a través del mismo.\n
+A DEDO NO garantiza en modo alguno la calidad, veracidad, exactitud, licitud, actualidad o vigencia, así como la utilidad o adecuación a finalidad alguna de los contenidos que integran la APLICACION WEB. A DEDO excluye, con toda la extensión permitida por la Ley, cualquier responsabilidad de cualquier clase por la calidad, veracidad, exactitud, licitud, actualidad, vigencia o utilidad/adecuación a finalidad alguna que el Usuario pudiera haber atribuido a los contenidos que integran la APLICACION WEB.\n
+El APLICACION WEB podrá contener enlaces a páginas que, aún dentro de la APLICACION WEB se encuentran bajo responsabilidad de terceros. Asimismo la APLICACION WEB podrá contener enlaces a páginas externas en todo caso al mismo. En ambos casos, A DEDO no puede controlar o supervisar en modo alguno dicho contenido. A DEDO excluye, con toda la extensión permitida por la Ley, cualquier responsabilidad de cualquier clase, derivada de la existencia o posibilidad de acceso a dichos contenidos.\n
+Asimismo, A DEDO no será en ningún caso responsable, ni siquiera de forma indirecta o subsidiaria, por productos o servicios prestados u ofertados por otras personas o entidades, o por contenidos, informaciones, comunicaciones, opiniones o manifestaciones de cualquier tipo originados o vertidos por terceros y que resulten accesibles a través de la APLICACION WEB de A DEDO.\n
+Servicio de puesta en contacto para la compartición de coche y de gastos asociados al traslado (en adelante: “servicio para viajar en coche compartido”) : La concertación de acuerdos entre Usuarios de la APLICACION WEB para la utilización compartida de vehículos (coches) es el resultado de acuerdos libres previos celebrados entre usuarios mayores de edad (conductores y pasajeros), que actúan bajo su plena y sola responsabilidad. A DEDO excluye expresamente cualquier tipo de responsabilidad por cualesquiera consecuencias derivadas de los acuerdos celebrados entre los mismos.\n
+Seguridad y Privacidad:\n
+A DEDO empleará razonablemente los medios a su alcance para proveer de sistemas de seguridad que protejan de forma razonable sus sistemas y los datos contenidos en los mismos contra ataques deliberados, software malignos, etc.\n
+No obstante el Usuario entiende y acepta los aspectos que comporta la prestación de servicios a través de Internet dado el carácter abierto, descentralizado y global de esta red de comunicaciones.\n
+Por este motivo A DEDO NO garantiza la inexpugnabilidad de sus sistemas de seguridad ni la privacidad de la información alojada en los mismos. A DEDO excluye, con toda la extensión permitida por la Ley, cualquier responsabilidad de cualquier clase por fallos de seguridad en el APLICACION WEB y las consecuencias que de ellos pudieran derivarse.\n
+Uso de ‘cookies’: La APLICACION WEB de A DEDO emplea ‘cookies de sesión’ con finalidades publicitarias así como para permitir y facilitar la interacción del usuario con el mismo. Asimismo los servicios de estadísticas –propios o ajenos-, empleados por la APLICACION WEB de A DEDO podrán emplear ‘cookies’ con la única finalidad de establecer métricas y patrones de uso del sitio. En ningún caso A DEDO utiliza o accede a las ‘cookies’ para finalidades distintas de las enunciadas.\n
+Interrupciones y/o Suspensión del Sistema:\n
+Con carácter general los diferentes servicios estarán disponibles ininterrumpidamente en Internet. Sin embargo, el Usuario queda apercibido de que A DEDO NO garantiza en modo alguno esta continuidad debido a la naturaleza del medio a través del que se prestan.\n
+El Usuario entiende y acepta los aspectos que comporta la prestación de servicios a través de Internet dado el carácter abierto, descentralizado y global de la red.\n
+Así por ejemplo, a título enunciativo no exhaustivo, a continuación se recogen algunas de las situaciones que pueden interrumpir temporalmente la prestación de dichos servicios:\n
+       .- Tareas de mantenimiento en los servidores y/o líneas de datos\n
+       .- Averías en los servidores y/o líneas de datos\n
+       .- Ataques deliberados contra la seguridad e integridad del sistema\n
+       .- Virus informáticos o presencia de código maligno en las páginas que conforman o son accesibles desde el APLICACION WEB\n
+A DEDO excluye, con toda la extensión permitida por la Ley, cualquier responsabilidad de cualquier clase derivada de la interrupción temporal en la disponibilidad de la APLICACION WEB en la red Internet.\n
+El Usuario queda apercibido de que A DEDO podrá en cualquier momento, a su solo criterio y sin obligación alguna de aviso previo, suspender con carácter definitivo la presencia de la APLICACION WEB en la red Internet y por tanto de los servicios prestados desde o a través del mismo, sin perjuicio de lo que se hubiere dispuesto al respecto en las correspondientes Condiciones Particulares. A DEDO queda eximida de cualquier tipo de responsabilidad de cualquier clase derivada de las consecuencias que pudieran producirse por la suspensión definitiva en la prestación de dichos servicios.\n
+ \n
+VII.- BAJA VOLUNTARIA, EXCLUSIÓN Y RESPONSABILIDADES:\n
+Cualquier Usuario podrá solicitar su baja, en cualquier momento, como usuario de la APLICACION WEB. \n
+El Usuario responde del buen uso de la APLICACION WEB y de los servicios contratados desde o a través del mismo. Cualquier uso de los servicios en contrario por parte del Usuario, comportará la inmediata exclusión de la APLICACION WEB con pérdida de su condición de usuario registrado del mismo, sin derecho a indemnización alguna y sin perjuicio de las correspondientes acciones legales a que por parte de A DEDO hubiere lugar.\n
+La falsedad de los datos personales facilitados por el Usuario durante el proceso de registro en la APLICACION WEB o en cualquiera de los servicios prestados desde o a través del mismo podrá comportar la inmediata exclusión de la APLICACION WEB con pérdida de su condición de usuario registrado del mismo, sin derecho a indemnización alguna y sin perjuicio de las correspondientes acciones legales a que por parte de A DEDO o de terceros hubiere lugar.\n
+Cualquier tipo de acción por parte del usuario que pudiera poner en riesgo o dañar sistemas, equipos o servicios accesibles directa o indirectamente a través de la APLICACION WEB, comportará su inmediata exclusión del mismo con pérdida de su condición de usuario registrado del mismo, sin derecho a indemnización alguna y sin perjuicio de las correspondientes acciones legales a que por parte de A DEDO hubiere lugar.\n
+Cualquier tipo de acción por parte del usuario que vulnere los presentes términos y condiciones, las Condiciones Particulares que en su caso pudieran regular Servicios concretos, la Ley o las buenas costumbres generalmente aceptadas, comportará su inmediata exclusión de la APLICACION WEB con pérdida de su condición de usuario registrado del mismo, sin derecho a indemnización alguna y sin perjuicio de las correspondientes acciones legales a que por parte de A DEDO hubiere lugar.\n
+La pérdida de condición de usuario registrado de la APLICACION WEB a consecuencia de exclusión de la misma podrá comportar a sólo juicio de A DEDO la prohibición de reingreso al mismo. A tal efecto el usuario queda apercibido y consiente expresamente a dicha circunstancia, autorizando de forma expresa e irrevocable a la conservación indefinida –en su caso- por A DEDO de su dirección de correo electrónico, número/s de teléfono y nombre/s de usuario que pudiera haber utilizado en la APLICACION WEB hasta el momento de su exclusión.\n
+El Usuario será el único responsable frente a cualquier reclamación, acción legal, judicial o extrajudicial, iniciada por terceras personas tanto contra el propio Usuario como contra A DEDO, basada en usos de los servicios contrarios a la ley, la moral, la buena fe y a las buenas costumbres generalmente aceptadas.\n
+ \n
+VIII.- NOTIFICACIONES:\n
+A los efectos de practicar las oportunas notificaciones, A DEDO designa como domicilio de contacto el especificado como propio en el encabezamiento de los presentes términos y condiciones.\n
+El correo electrónico facilitado por el Usuario durante el proceso de registro en la APLICACION WEB, será el utilizado por A DEDO a efectos de practicar notificaciones al Usuario.\n
+El Usuario está obligado a mantener debidamente actualizados los datos que a efectos de notificaciones se referencian en la presente cláusula.\n
+Todas las Notificaciones que efectúe A DEDO al Usuario se considerarán válidamente efectuadas si se han realizado empleando los datos y a través de los medios anteriormente señalados. A DEDO no se responsabiliza de cualquier perjuicio que pudiere producirse por la vulneración del Usuario de su obligación de mantenimiento actualizado de sus datos de contacto.\n
+ \n
+IX.- VALIDEZ Y ACUERDO COMPLETO:\n
+La declaración de nulidad o invalidez de cualquier estipulación contenida en los presentes términos y condiciones, no afectará a la validez y eficacia de las demás cláusulas.\n
+Los presentes términos y condiciones de los servicios prestados por A DEDO a través de la APLICACION WEB constituyen el acuerdo total entre las partes, considerándose de rango superior a cualquier acuerdo previo escrito o verbal, entendimiento, afirmación, representación, negociación o propósito de acuerdo en relación con esta materia.\n
+ \n
+X.- LEY APLICABLE Y FUERO:\n
+Los presentes términos y condiciones se regirán e interpretarán en todos y cada uno de sus extremos por la Ley Argentina.\n
+Tanto A DEDO como el Usuario se comprometen a intentar resolver de manera amistosa cualquier desacuerdo que pudiera surgir en el desarrollo de las relaciones mercantiles que les son propias. Para la solución de cuantas cuestiones litigiosas pudieran derivarse del desarrollo de las relaciones mercantiles que les son propias, ambas partes acuerdan someterse a la jurisdicción de los Juzgados y Tribunales de la ciudad de Santa Fe  (Argentina), a salvo -en su caso- sumisión legal obligatoria a fuero de parte.\n
+" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="80sp"
+                android:layout_height="60sp"
+                android:background="@drawable/anterior"
+                android:onClick="anterior" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    
+
+</RelativeLayout>

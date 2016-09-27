@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="160sp"
+    android:background="@color/Orange">
+
+    <LinearLayout
+        android:layout_width="0sp"
+        android:layout_height="160sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="10sp" >
+        
+	    <ImageView
+	            android:id="@+id/imageView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/car_two" />
+	    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="0sp"
+        android:layout_height="160sp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10sp" >
+
+            <TextView
+                android:id="@+id/tv_calif_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="0sp"
+                android:layout_weight="1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="left"
+                android:text="Nombre chofer"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_calif_viajes"
+                android:layout_width="wrap_content"
+                android:layout_height="0sp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="16dp"
+                android:text="Viajes = 0" />
+
+            <TextView
+                android:id="@+id/tv_calif_promedio"
+                android:layout_width="wrap_content"
+                android:layout_height="0sp"
+                android:layout_weight="2"
+                android:text="Calificación promedio (de 1 a 5) = 4,5"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/tv_calif_auto"
+                android:layout_width="wrap_content"
+                android:layout_height="0sp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:text="Vehículo = Gol" />
+
+    </LinearLayout>
+
+</LinearLayout>

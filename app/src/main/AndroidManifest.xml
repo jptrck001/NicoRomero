@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adedo"
+    android:versionCode="3"
+    android:versionName="3.2" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.adedo.ADedo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adedo.Chofer"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Pasajero"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Viaje"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Confirmacion_Viaje"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Cuando_viajas"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Lista_viajes"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Lista_calificaciones"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Calificacion"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Principal"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Terminos"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Comentarios"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Chofer_viaje"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.ViajesFechaActual"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.ViajeActualPasajero"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Pasajero_viaje"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adedo.Calendar_activity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.adedo.DayTrips_Activity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.adedo.CrearViajePasajero"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- Facebook -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationName"
+            android:value="@string/facebook_app_name" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.adedo"
+            android:exported="true" />
+
+        <!-- EndFacebook -->
+    </application>
+
+</manifest>

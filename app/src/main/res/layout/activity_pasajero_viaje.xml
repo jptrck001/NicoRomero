@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pasajero_viaje"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10sp"
+
+        android:layout_margin="20sp">
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button1p"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ver calendario"
+                        android:background="@color/Orange"
+                        android:textColor="#ffffff"
+                        android:onClick="listado" />
+
+                    <Button
+                        android:id="@+id/button2p"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crear Solicitud de Viaje"
+                        android:layout_marginTop="50sp"
+                        android:background="@color/Orange"
+                        android:textColor="#ffffff"
+                        android:onClick="buscar" />
+                    
+                </LinearLayout>
+            </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first_screen"
+    tools:context=".Adedo" >
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/signin_button_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/signin_button_fb"
+        android:layout_alignBottom="@+id/signin_button_fb"
+        android:layout_alignLeft="@+id/signin_button_fb"
+        android:layout_alignStart="@+id/signin_button_fb"
+        android:layout_alignRight="@+id/signin_button_fb"
+        android:layout_alignEnd="@+id/signin_button_fb"
+        android:id="@+id/fakeButton">
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/signin_button_fb"
+        android:layout_alignLeft="@+id/signin_button_fb"
+        android:layout_alignStart="@+id/signin_button_fb"
+        android:layout_alignRight="@+id/signin_button_fb"
+        android:layout_alignEnd="@+id/signin_button_fb">
+        <RadioButton android:id="@+id/radio_chofer"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="Chofer"
+            android:textSize="11sp"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radio_pasajero"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Pasajero"
+            android:textSize="11sp"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+
+    <!--<ScrollView-->
+        <!--android:id="@+id/scrollView1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:foregroundGravity="bottom" >-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical" >-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="464dp" >-->
+<!--////// 1st button-->
+                <!--<Button-->
+                    <!--android:id="@+id/button2"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_alignParentTop="true"-->
+                    <!--android:onClick="calificaciones"-->
+                    <!--android:text="Ver y puntuar conductores" />-->
+               <!-- -->
+                <!--////// 2nd button-->
+                <!--<Button-->
+                    <!--android:id="@+id/button1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_marginBottom="20dp"-->
+                    <!--android:onClick="comenzar"-->
+                    <!--android:text="COMENZAR" />-->
+
+                <!--<TextView-->
+                    <!--android:visibility="gone"-->
+                    <!--android:id="@+id/textView2"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@+id/button2"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_marginTop="43dp"-->
+                    <!--android:text="¡BIENVENIDOS!"-->
+                    <!--android:textSize="25sp"  />-->
+
+                <!--<ImageView-->
+                    <!--android:visibility="gone"-->
+                    <!--android:id="@+id/imageView1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_above="@+id/textView1"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_below="@+id/textView2"-->
+                    <!--android:src="@drawable/ic_launcher" />-->
+
+                <!--<TextView-->
+                    <!--android:visibility="gone"-->
+                    <!--android:id="@+id/textView1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_above="@+id/button1"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="A Dedo busca juntar personas que quieran compartir su viaje"-->
+                    <!--android:textSize="25sp" />-->
+            <!--</RelativeLayout>-->
+
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+    
+</RelativeLayout>
