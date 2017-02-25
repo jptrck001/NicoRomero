@@ -58,6 +58,7 @@ public class Calendar_activity extends AppCompatActivity implements OnDateSelect
         i.putExtra("mes",String.valueOf(date.getMonth()));
         i.putExtra("año", String.valueOf(date.getYear()));
         startActivity(i);
+        finish();
 
     }
 

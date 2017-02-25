@@ -210,6 +210,7 @@ public class CrearViajePasajero extends Activity {
             i.putExtra("parametro7", 100); //100 representa que es un pasajero, es un workaround por las limitaciones del server
             i.putExtra("parametro8", mailc);
             startActivity(i);
+            finish();
         }
     }
 

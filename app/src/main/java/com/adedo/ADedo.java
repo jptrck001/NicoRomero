@@ -65,11 +65,6 @@ public class ADedo extends Activity {
             }
         });
 
-        if (inserted) {
-            fakeButton.setVisibility(View.GONE);
-            radioGroup.setVisibility(View.GONE);
-        }
-
         initializeFacebook();
     }
 
@@ -77,7 +72,7 @@ public class ADedo extends Activity {
     protected void onStart() {
         super.onStart();
 
-        if (isLoggedIn()) {
+        if (isLoggedIn() && inserted) {
             Intent i = new Intent(ADedo.this, Principal.class);
             SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
 
@@ -91,6 +86,7 @@ public class ADedo extends Activity {
                 i.putExtra("first_name", first_name);
                 i.putExtra("last_name", last_name);
                 startActivity(i);
+                finish();
             }
         }
     }
@@ -102,7 +98,7 @@ public class ADedo extends Activity {
 
     public void retrieveFromPref() {
         SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
-        inserted = prefs.getBoolean("Inserted", false);
+        inserted = prefs.getBoolean(prefs.getString("email", "") + "-Inserted", false);
     }
 
     public void comenzar(View view) {

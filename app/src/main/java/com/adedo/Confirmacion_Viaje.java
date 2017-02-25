@@ -76,6 +76,7 @@ public class Confirmacion_Viaje extends Activity {
     public void atras(View view){
     	Intent i = new Intent(Confirmacion_Viaje.this, Principal.class);
         startActivity(i);
+		finish();
 	}
     
     public String httpGetData(String mURL){

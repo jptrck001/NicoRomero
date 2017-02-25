@@ -42,9 +42,14 @@ public class Chofer extends Activity {
     private Date c = new Date();
     private int año = 0;
     private Spinner lista, lista2, lista3;
-    private String[] datos = {"Día", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"};
+    private String[] datos = {"Día", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18",
+            "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"};
     private String[] datos2 = {"Mes", "ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"};
-    private String[] datos3 = {"Año", "2000", "1999", "1998", "1997", "1996", "1995", "1994", "1993", "1992", "1991", "1990", "1989", "1988", "1987", "1986", "1985", "1984", "1983", "1982", "1981", "1980", "1979", "1978", "1977", "1976", "1975", "1974", "1973", "1972", "1971", "1970", "1969", "1968", "1967", "1966", "1965", "1964", "1963", "1962", "1961", "1960", "1959", "1958", "1957", "1956", "1955", "1954", "1953", "1952", "1951", "1950", "1949", "1948", "1947", "1946", "1945", "1944", "1943", "1942", "1941", "1940", "1939", "1938", "1937", "1936", "1935", "1934", "1933", "1932", "1931", "1930"};
+    private String[] datos3 = {"Año", "2000", "1999", "1998", "1997", "1996", "1995", "1994", "1993", "1992", "1991", "1990", "1989", "1988",
+            "1987", "1986", "1985", "1984", "1983", "1982", "1981", "1980", "1979", "1978", "1977", "1976", "1975", "1974", "1973", "1972", "1971",
+            "1970", "1969", "1968", "1967", "1966", "1965", "1964", "1963", "1962", "1961", "1960", "1959", "1958", "1957", "1956", "1955", "1954",
+            "1953", "1952", "1951", "1950", "1949", "1948", "1947", "1946", "1945", "1944", "1943", "1942", "1941", "1940", "1939", "1938", "1937",
+            "1936", "1935", "1934", "1933", "1932", "1931", "1930"};
 
     Handler h = new Handler() {
         @Override
@@ -70,7 +75,8 @@ public class Chofer extends Activity {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    httpGetData(Utilities.getUrl(getApplicationContext()) + "/registro_calificaciones.php?mailc=" + mailc.getText() + "&promedioca=0&comentariosca=" + "comentarios");
+                    httpGetData(Utilities.getUrl(getApplicationContext()) + "/registro_calificaciones.php?mailc=" + mailc.getText() +
+                            "&promedioca=0&comentariosca=" + "comentarios");
                 }
             }).start();
             Toast.makeText(getApplicationContext(), "Resgistró correctamente la información", 3000).show();
@@ -241,19 +247,30 @@ public class Chofer extends Activity {
             else if (autoc.getText().toString().equals(""))
                 Toast.makeText(getApplicationContext(), "Debe ingresar el modelo del auto", Toast.LENGTH_SHORT).show();
             else if (!cb.isChecked())
-                Toast.makeText(getApplicationContext(), "Debe aceptar los Términos y Condiciones para seguir, antes debe leerlo", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Debe aceptar los Términos y Condiciones para seguir, antes debe leerlo", Toast.LENGTH_SHORT)
+                     .show();
             else {
 
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        httpGetData(Utilities.getUrl(getApplicationContext()) + "/registro_chofer.php?mailc=" + mailc.getText().toString().replace("\"","") + "&nombrec=" + nombrec.getText() + "&telefonoc=" + telefonoc.getText() + "&direccionc=" + direccionc.getText() + "&autoc=" + autoc.getText() + "&nacimientoc=" + lista.getSelectedItem().toString() + "/" + lista2.getSelectedItem().toString() + "/" + lista3.getSelectedItem() + "&dnic=" + dni.getText() + "&facebookc=" + facebook.getText());
+                        httpGetData(Utilities.getUrl(getApplicationContext()) + "/registro_chofer.php?mailc=" + mailc.getText()
+                                                                                                                     .toString()
+                                                                                                                     .replace("\"", "") +
+                                "&nombrec=" + nombrec
+                                .getText() + "&telefonoc=" + telefonoc.getText() + "&direccionc=" + direccionc.getText() + "&autoc=" + autoc
+                                .getText() + "&nacimientoc=" + lista
+                                .getSelectedItem()
+                                .toString() + "/" + lista2.getSelectedItem()
+                                                          .toString() + "/" + lista3.getSelectedItem() + "&dnic=" + dni.getText() + "&facebookc=" +
+                                facebook
+                                .getText());
                         h1.sendEmptyMessage(1);
                     }
                 }).start();
                 Intent i = new Intent(Chofer.this, Principal.class);
                 i.putExtra("email", mailc.getText().toString());
-//                insertInSharePref();
+                //                insertInSharePref();
                 startActivity(i);
                 finish();
             }
@@ -262,7 +279,7 @@ public class Chofer extends Activity {
 
     public void insertInSharePref() {
         SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-        editor.putBoolean("Inserted", true);
+        editor.putBoolean(mailc.getText().toString() + "-Inserted", true);
         editor.commit();
     }
 
