@@ -228,7 +228,7 @@ public class Pasajero extends Activity {
                 }).start();
                 Intent i = new Intent(Pasajero.this, Principal.class);
                 i.putExtra("email", mailp.getText().toString());
-                insertInSharePref();
+                //insertInSharePref();
                 startActivity(i);
                 finish();
             }
@@ -272,6 +272,9 @@ public class Pasajero extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        insertInSharePref();
+
         return response;
     }
 

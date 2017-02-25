@@ -253,7 +253,7 @@ public class Chofer extends Activity {
                 }).start();
                 Intent i = new Intent(Chofer.this, Principal.class);
                 i.putExtra("email", mailc.getText().toString());
-                insertInSharePref();
+//                insertInSharePref();
                 startActivity(i);
                 finish();
             }
@@ -279,6 +279,9 @@ public class Chofer extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        insertInSharePref();
+
         return response;
     }
     

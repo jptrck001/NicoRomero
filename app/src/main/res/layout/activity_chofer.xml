@@ -33,7 +33,7 @@
                             android:text="REGISTRO DE CONDUCTOR"
                             android:textColor="@color/Orange"
                             android:textSize="25sp"
-                            android:textStyle="bold" />  
+                            android:textStyle="bold" />
 
                         <EditText
                             android:id="@+id/editText"
@@ -72,7 +72,7 @@
                             android:paddingLeft="20sp"
                             android:hint="Dirección"
                             android:inputType="textPersonName" />
-                        
+
                         <EditText
                             android:id="@+id/editText4"
                             android:layout_width="wrap_content"
@@ -84,19 +84,19 @@
                             android:paddingLeft="20sp"
                             android:hint="Teléfono"
                             android:inputType="phone" />
-                        
+
                         <TextView
                             android:id="@+id/tv_fecha"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
-                            android:text="Fecha de nacimiento" 
+                            android:text="Fecha de nacimiento"
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold"
                             android:paddingLeft="20sp"
                             android:layout_below="@+id/editText4"/>
-                        
+
                         <EditText
                             android:id="@+id/editText15"
                             android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
                             android:paddingLeft="20sp"
                             android:hint="D.N.I"
                             android:inputType="number" />
-                        
+
                         <EditText
                             android:id="@+id/editText16"
                             android:layout_width="wrap_content"
@@ -156,29 +156,21 @@
 	                            android:layout_alignParentRight="true"
 	                            android:text="Acepto Terminos y Condiciones" />
 
-	                        <Button
-	                            android:id="@+id/button1"
-	                            style="?android:attr/buttonStyleSmall"
+							<Button
+                                android:id="@+id/button1"
+                                style="?android:attr/buttonStyleSmall"
                                 android:layout_width="40sp"
                                 android:layout_height="40sp"
-	                            android:layout_alignLeft="@+id/checkBox1"
-	                            android:layout_alignTop="@+id/ib_siguiente_registro"
-	                            android:background="@drawable/leer"
-	                            android:onClick="TerminosCondiciones"
+								android:background="@drawable/leer"
+                                android:onClick="TerminosCondiciones"
+                                android:textColor="#FFD700"
+								android:layout_alignParentBottom="true"
+								android:layout_alignParentLeft="true"
+								android:layout_alignParentStart="true"
+								android:layout_marginLeft="101dp"
+								android:layout_marginStart="101dp"/>
 
-	                            android:textColor="#FFD700"
-								android:layout_marginRight="10dp" />
-
-	                        <ImageButton
-	                            android:id="@+id/imageButton1"
-	                            android:layout_width="40sp"
-	                            android:layout_height="40sp"
-	                            android:layout_alignBottom="@+id/button1"
-	                            android:layout_centerHorizontal="true"
-	                            android:background="@drawable/home"
-	                            android:onClick="atras" />
-
-	                         </RelativeLayout>
+						</RelativeLayout>
 
                         <Spinner
                             android:id="@+id/spinnerMes"
@@ -205,5 +197,18 @@
                 </LinearLayout>
 
             </ScrollView>
+
+	<ImageButton
+		android:id="@+id/imageButton1"
+		android:layout_width="40sp"
+		android:layout_height="40sp"
+		android:background="@drawable/home"
+		android:onClick="atras"
+		android:layout_marginRight="147dp"
+		android:layout_marginEnd="147dp"
+		android:layout_marginBottom="139dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true"/>
 
 </RelativeLayout>

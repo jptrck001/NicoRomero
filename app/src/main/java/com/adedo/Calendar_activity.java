@@ -6,17 +6,24 @@ package com.adedo;
 
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.text.style.ForegroundColorSpan;
 import android.widget.TextView;
 
 import com.prolificinteractive.materialcalendarview.CalendarDay;
+import com.prolificinteractive.materialcalendarview.DayViewDecorator;
+import com.prolificinteractive.materialcalendarview.DayViewFacade;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
 import com.prolificinteractive.materialcalendarview.OnMonthChangedListener;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -41,6 +48,7 @@ public class Calendar_activity extends AppCompatActivity implements OnDateSelect
         ButterKnife.bind(this);
         widget.setOnDateChangedListener(this);
         widget.setOnMonthChangedListener(this);
+        widget.addDecorator(new OneDayDecorator());
     }
 
     @Override
@@ -64,5 +72,32 @@ public class Calendar_activity extends AppCompatActivity implements OnDateSelect
             return "No Selection";
         }
         return FORMATTER.format(date.getDate());
+    }
+
+    public class OneDayDecorator implements DayViewDecorator {
+
+        private CalendarDay date;
+
+        public OneDayDecorator() {
+            date = CalendarDay.today();
+        }
+
+        @Override
+        public boolean shouldDecorate(CalendarDay day) {
+            return true;
+        }
+
+        @Override
+        public void decorate(DayViewFacade view) {
+            view.addSpan(new ForegroundColorSpan(Color.WHITE));
+            view.setBackgroundDrawable(getDrawable(R.drawable.selection_day));
+        }
+
+        /**
+         * We're changing the internals, so make sure to call {@linkplain MaterialCalendarView#invalidateDecorators()}
+         */
+        public void setDate(Date date) {
+            this.date = CalendarDay.from(date);
+        }
     }
 }

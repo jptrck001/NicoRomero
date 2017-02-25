@@ -3,6 +3,7 @@ package com.adedo;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
+import android.content.pm.PackageInstaller;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -37,152 +39,188 @@ import java.util.Arrays;
 
 public class ADedo extends Activity {
 
-	//Facebook
-	CallbackManager callbackManager;
-	GraphRequest request;
-	private RelativeLayout fakeButton;
-	private String radioChecked = "";
-	private boolean inserted = false;
-	private RadioGroup radioGroup;
+    //Facebook
+    CallbackManager callbackManager;
+    GraphRequest request;
+    private RelativeLayout fakeButton;
+    private String radioChecked = "";
+    private boolean inserted = false;
+    private RadioGroup radioGroup;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		retrieveFromPref();
-		FacebookSdk.sdkInitialize(getApplicationContext());
-		AppEventsLogger.activateApp(this);
-		setContentView(R.layout.activity_adedo);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        retrieveFromPref();
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        AppEventsLogger.activateApp(this);
+        setContentView(R.layout.activity_adedo);
 
-		radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
-		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-		fakeButton = (RelativeLayout) findViewById(R.id.fakeButton);
-		fakeButton.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				Toast.makeText(ADedo.this,"Seleccione si es chofer o pasajero",Toast.LENGTH_SHORT).show();
-			}
-		});
+        radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        fakeButton = (RelativeLayout) findViewById(R.id.fakeButton);
+        fakeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(ADedo.this, "Seleccione si es chofer o pasajero", Toast.LENGTH_SHORT).show();
+            }
+        });
 
-		if(inserted){
-			fakeButton.setVisibility(View.GONE);
-			radioGroup.setVisibility(View.GONE);
-		}
+        if (inserted) {
+            fakeButton.setVisibility(View.GONE);
+            radioGroup.setVisibility(View.GONE);
+        }
 
-		initializeFacebook();
-	}
+        initializeFacebook();
+    }
 
-	public void retrieveFromPref(){
-		SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
-		inserted = prefs.getBoolean("Inserted",false);
-	}
-	
-	public void comenzar(View view){
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        if (isLoggedIn()) {
+            Intent i = new Intent(ADedo.this, Principal.class);
+            SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
+
+            String email = prefs.getString("email", "");
+            String name = prefs.getString("name", "");
+            String first_name = prefs.getString("first_name", "");
+            String last_name = prefs.getString("last_name", "");
+            if (!(email.isEmpty() || name.isEmpty() || first_name.isEmpty() || last_name.isEmpty())) {
+                i.putExtra("email", email);
+                i.putExtra("name", name);
+                i.putExtra("first_name", first_name);
+                i.putExtra("last_name", last_name);
+                startActivity(i);
+            }
+        }
+    }
+
+    public boolean isLoggedIn() {
+        AccessToken accessToken = AccessToken.getCurrentAccessToken();
+        return accessToken != null;
+    }
+
+    public void retrieveFromPref() {
+        SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
+        inserted = prefs.getBoolean("Inserted", false);
+    }
+
+    public void comenzar(View view) {
         Intent i = new Intent(ADedo.this, Principal.class);
         startActivity(i);
     }
-	
-	public void calificaciones(View view){
-		Intent i = new Intent(ADedo.this, Lista_calificaciones.class);
+
+    public void calificaciones(View view) {
+        Intent i = new Intent(ADedo.this, Lista_calificaciones.class);
         startActivity(i);
     }
 
-	public void onRadioButtonClicked(View view) {
-		// Is the button now checked?
-		boolean checked = ((RadioButton) view).isChecked();
+    public void onRadioButtonClicked(View view) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
 
-		// Check which radio button was clicked
-		switch(view.getId()) {
-			case R.id.radio_chofer:
-				if (checked)
-					radioChecked = "chofer";
-					fakeButton.setVisibility(View.GONE);
-					break;
-			case R.id.radio_pasajero:
-				if (checked)
-					radioChecked = "pasajero";
-					fakeButton.setVisibility(View.GONE);
-					break;
-		}
-	}
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.radio_chofer:
+                if (checked)
+                    radioChecked = "chofer";
+                fakeButton.setVisibility(View.GONE);
+                break;
+            case R.id.radio_pasajero:
+                if (checked)
+                    radioChecked = "pasajero";
+                fakeButton.setVisibility(View.GONE);
+                break;
+        }
+    }
 
-	private void initializeFacebook(){
-		callbackManager = CallbackManager.Factory.create();
+    private void initializeFacebook() {
+        callbackManager = CallbackManager.Factory.create();
 
-		final LoginButton loginButton = (LoginButton) findViewById(R.id.signin_button_fb);
-		loginButton.setText("Login");
-		loginButton.setReadPermissions(Arrays.asList("public_profile, email"));
 
-		loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-			@Override
-			public void onSuccess(LoginResult loginResult) {
+        final LoginButton loginButton = (LoginButton) findViewById(R.id.signin_button_fb);
+        loginButton.setText("Login");
+        loginButton.setReadPermissions(Arrays.asList("public_profile, email"));
 
-				request = GraphRequest.newMeRequest(
-						loginResult.getAccessToken(),
-						new GraphRequest.GraphJSONObjectCallback() {
-							@Override
-							public void onCompleted(
-									JSONObject object,
-									GraphResponse response) {
-								// Application code
-								try {
-									String email = (object.has("email")) ? object.getString("email") : "";
-									String name = (object.has("name")) ? object.getString("name") : "";
-									String first_name = (object.has("first_name")) ? object.getString("first_name") : "";
-									String last_name = (object.has("last_name")) ? object.getString("last_name") : "";
+        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+            @Override
+            public void onSuccess(LoginResult loginResult) {
 
-									Intent i = null;
+                request = GraphRequest.newMeRequest(
+                        loginResult.getAccessToken(),
+                        new GraphRequest.GraphJSONObjectCallback() {
+                            @Override
+                            public void onCompleted(
+                                    JSONObject object,
+                                    GraphResponse response) {
+                                // Application code
+                                try {
+                                    String email = (object.has("email")) ? object.getString("email") : "";
+                                    String name = (object.has("name")) ? object.getString("name") : "";
+                                    String first_name = (object.has("first_name")) ? object.getString("first_name") : "";
+                                    String last_name = (object.has("last_name")) ? object.getString("last_name") : "";
 
-									if(!inserted) {
-										if (radioChecked == "chofer") {
-											i = new Intent(ADedo.this, Chofer.class);
-										} else {
-											i = new Intent(ADedo.this, Pasajero.class);
-										}
-									}else{
-										i = new Intent(ADedo.this, Principal.class);
-									}
+                                    SharedPreferences settings = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
+                                    SharedPreferences.Editor prefEditor = settings.edit();
+                                    prefEditor.putString("email", email);
+                                    prefEditor.putString("name", name);
+                                    prefEditor.putString("first_name", first_name);
+                                    prefEditor.putString("last_name", last_name);
+                                    prefEditor.commit();
 
-									i.putExtra("email", email);
-									i.putExtra("name", name);
-									i.putExtra("first_name", first_name);
-									i.putExtra("last_name", last_name);
-									startActivity(i);
-									finish();
+                                    Intent i = null;
 
-								} catch (JSONException e) {
-									e.printStackTrace();
-								}
-							}
-						});
-				Bundle parameters = new Bundle();
-				parameters.putString("fields", "id,name,email,gender, birthday,first_name,last_name");
-				request.setParameters(parameters);
-				request.executeAsync();
+                                    if (!inserted) {
+                                        if (radioChecked == "chofer") {
+                                            i = new Intent(ADedo.this, Chofer.class);
+                                        } else {
+                                            i = new Intent(ADedo.this, Pasajero.class);
+                                        }
+                                    } else {
+                                        i = new Intent(ADedo.this, Principal.class);
+                                    }
 
-			}
+                                    i.putExtra("email", email);
+                                    i.putExtra("name", name);
+                                    i.putExtra("first_name", first_name);
+                                    i.putExtra("last_name", last_name);
+                                    startActivity(i);
+                                    finish();
 
-			@Override
-			public void onCancel() {
-				int i = 0;
-			}
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        });
+                Bundle parameters = new Bundle();
+                parameters.putString("fields", "id,name,email,gender, birthday,first_name,last_name");
+                request.setParameters(parameters);
+                request.executeAsync();
 
-			@Override
-			public void onError(FacebookException error) {
-				Toast.makeText(getApplicationContext(),"Error de conexión",Toast.LENGTH_SHORT);
-			}
+            }
 
-		});
-	}
+            @Override
+            public void onCancel() {
+                int i = 0;
+            }
 
-	@Override
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		super.onActivityResult(requestCode, resultCode, data);
-		callbackManager.onActivityResult(requestCode, resultCode, data);
-	}
+            @Override
+            public void onError(FacebookException error) {
+                Toast.makeText(getApplicationContext(), "Error de conexión", Toast.LENGTH_SHORT);
+            }
 
-	@Override
-	public void onBackPressed() {
-		super.onBackPressed();
-		LoginManager.getInstance().logOut();
-	}
+        });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        callbackManager.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        LoginManager.getInstance().logOut();
+    }
 }
