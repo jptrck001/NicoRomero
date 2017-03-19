@@ -1,6 +1,7 @@
 package com.adedo;
 
 import java.io.IOException;
+import java.util.Calendar;
 import java.util.Date;
 
 import org.apache.http.client.ClientProtocolException;
@@ -13,6 +14,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 
 import android.app.Activity;
+import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -24,9 +26,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Chofer extends Activity {
@@ -34,14 +38,18 @@ public class Chofer extends Activity {
     public final static String MY_PREFS_NAME = "AdedoPref";
 
     private ImageButton im_btn;
-    private EditText mailc, nombrec, telefonoc, direccionc, dni, facebook, autoc;
+    private EditText mailc, nombrec, telefonoc, direccionc, autoc;
     private Context contetx;
     private JSONArray ja;
     private String data;
     private CheckBox cb;
     private Date c = new Date();
     private int año = 0;
+    private int mes = 0;
+    private int dia = 0;
     private Spinner lista, lista2, lista3;
+    String facebook;
+    private TextView select_date;
     private String[] datos = {"Día", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18",
             "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"};
     private String[] datos2 = {"Mes", "ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"};
@@ -79,7 +87,7 @@ public class Chofer extends Activity {
                             "&promedioca=0&comentariosca=" + "comentarios");
                 }
             }).start();
-            Toast.makeText(getApplicationContext(), "Resgistró correctamente la información", 3000).show();
+            Toast.makeText(getApplicationContext(), "Resgistró correctamente la información", Toast.LENGTH_SHORT).show();
         }
     };
 
@@ -97,17 +105,52 @@ public class Chofer extends Activity {
         direccionc = (EditText) findViewById(R.id.editText3);
         autoc = (EditText) findViewById(R.id.editText5);
         cb = (CheckBox) findViewById(R.id.checkBox1);
-        dni = (EditText) findViewById(R.id.editText15);
-        facebook = (EditText) findViewById(R.id.editText16);
+        //facebook = (EditText) findViewById(R.id.editText16);
+        select_date = (TextView) findViewById(R.id.select_date);
 
         String mail = getIntent().hasExtra("email") ? getIntent().getExtras().getString("email") : "";
         mailc.setText(mail);
         String name = getIntent().hasExtra("name") ? getIntent().getExtras().getString("name") : "";
         nombrec.setText(getIntent().getExtras().getString("name"));
 
+        SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
+        String first_name = prefs.getString("first_name", "");
+        String last_name = prefs.getString("last_name", "");
+
+
+        facebook = "https://www.facebook.com/"+ first_name + "." + last_name;
+        facebook = facebook.trim().toLowerCase();
+
+        select_date.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Get Current Date
+                final Calendar c = Calendar.getInstance();
+                int mYear = c.get(Calendar.YEAR);
+                int mMonth = c.get(Calendar.MONTH);
+                int mDay = c.get(Calendar.DAY_OF_MONTH);
+
+
+                DatePickerDialog datePickerDialog = new DatePickerDialog(Chofer.this,
+                        new DatePickerDialog.OnDateSetListener() {
+
+                            @Override
+                            public void onDateSet(DatePicker view, int year,
+                                    int monthOfYear, int dayOfMonth) {
+
+                                año = year;
+                                mes = monthOfYear;
+                                dia = dayOfMonth;
+                                select_date.setText(dayOfMonth + "-" + (monthOfYear + 1) + "-" + year);
+
+                            }
+                        }, mYear, mMonth, mDay);
+                datePickerDialog.show();
+            }
+        });
         //spinner1
-        lista = (Spinner) findViewById(R.id.spinnerDia);
-        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
+        //lista = (Spinner) findViewById(R.id.spinnerDia);
+        /*ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
         lista.setAdapter(adaptador);
         lista.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
@@ -124,8 +167,8 @@ public class Chofer extends Activity {
         });
 
         //spinner2
-        lista2 = (Spinner) findViewById(R.id.spinnerMes);
-        ArrayAdapter<String> adaptador2 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos2);
+        //lista2 = (Spinner) findViewById(R.id.spinnerMes);
+        /*ArrayAdapter<String> adaptador2 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos2);
         lista2.setAdapter(adaptador2);
         lista2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
@@ -142,10 +185,10 @@ public class Chofer extends Activity {
         });
 
         //spinner3
-        lista3 = (Spinner) findViewById(R.id.spinnerAño);
-        ArrayAdapter<String> adaptador3 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos3);
-        lista3.setAdapter(adaptador3);
-        lista3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        //lista3 = (Spinner) findViewById(R.id.spinnerAño);
+        //ArrayAdapter<String> adaptador3 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos3);
+        //lista3.setAdapter(adaptador3);
+        /*lista3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
             @Override
             public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
@@ -157,9 +200,9 @@ public class Chofer extends Activity {
 
             }
 
-        });
+        });*/
 
-        Toast.makeText(getApplicationContext(), "Si ya esta registrado solo ingrese su mail !", 5000).show();
+        Toast.makeText(getApplicationContext(), "Si ya esta registrado solo ingrese su mail !", Toast.LENGTH_SHORT).show();
 
         //im_btn = (ImageButton)findViewById(R.id.ImageButton);
         //im_btn.setOnClickListener(new PhotoTaker());
@@ -232,18 +275,15 @@ public class Chofer extends Activity {
             Toast.makeText(getApplicationContext(), "Debe ingresar la dirección", Toast.LENGTH_SHORT).show();
         else if (telefonoc.getText().toString().equals(""))
             Toast.makeText(getApplicationContext(), "Debe ingresar el teléfono", Toast.LENGTH_SHORT).show();
-        else if (lista.getSelectedItem().equals("Día"))
+        /*else if (lista.getSelectedItem().equals("Día"))
             Toast.makeText(getApplicationContext(), "Debe ingresar el día de su nacimiento", Toast.LENGTH_SHORT).show();
         else if (lista2.getSelectedItem().equals("Mes"))
             Toast.makeText(getApplicationContext(), "Debe ingresar el mes de su nacimiento", Toast.LENGTH_SHORT).show();
         else if (lista3.getSelectedItem().equals("Año"))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el año de su nacimiento", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Debe ingresar el año de su nacimiento", Toast.LENGTH_SHORT).show();*/
         else {
-            año = new Integer(lista3.getSelectedItem().toString()).intValue();
             if (((c.getYear() + 1900) - año) < 18)
                 Toast.makeText(getApplicationContext(), "Debe ser mayor de 18 años para poder registrarse", Toast.LENGTH_SHORT).show();
-            else if (dni.getText().toString().equals(""))
-                Toast.makeText(getApplicationContext(), "Debe ingresar su documento de identidad", Toast.LENGTH_SHORT).show();
             else if (autoc.getText().toString().equals(""))
                 Toast.makeText(getApplicationContext(), "Debe ingresar el modelo del auto", Toast.LENGTH_SHORT).show();
             else if (!cb.isChecked())
@@ -259,12 +299,9 @@ public class Chofer extends Activity {
                                                                                                                      .replace("\"", "") +
                                 "&nombrec=" + nombrec
                                 .getText() + "&telefonoc=" + telefonoc.getText() + "&direccionc=" + direccionc.getText() + "&autoc=" + autoc
-                                .getText() + "&nacimientoc=" + lista
-                                .getSelectedItem()
-                                .toString() + "/" + lista2.getSelectedItem()
-                                                          .toString() + "/" + lista3.getSelectedItem() + "&dnic=" + dni.getText() + "&facebookc=" +
-                                facebook
-                                .getText());
+                                .getText() + "&nacimientoc=" + dia
+                                + "/" + mes + "/" + año
+                                + "&facebookc=" + facebook);
                         h1.sendEmptyMessage(1);
                     }
                 }).start();

@@ -20,7 +20,7 @@ public class Chofer_viaje extends Activity {
 	}
 	
 	public void crear(View view){
-    	Intent i = new Intent(Chofer_viaje.this, Viaje.class);
+    	Intent i = new Intent(Chofer_viaje.this, Viaje_chofer.class);
         i.putExtra("parametro1", mailc);
         startActivity(i);
 	}

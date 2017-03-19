@@ -22,8 +22,8 @@ public final class R {
 		public static final int mcv_weekDayTextAppearance = 0x7f01004b;
 	}
 	public static final class color {
-		public static final int mcv_text_date_dark = 0x7f0b006d;
-		public static final int mcv_text_date_light = 0x7f0b006e;
+		public static final int mcv_text_date_dark = 0x7f0b006e;
+		public static final int mcv_text_date_light = 0x7f0b006f;
 	}
 	public static final class drawable {
 		public static final int mcv_action_next = 0x7f020087;

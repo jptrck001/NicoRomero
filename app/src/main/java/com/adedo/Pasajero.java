@@ -1,6 +1,7 @@
 package com.adedo;
 
 import java.io.IOException;
+import java.util.Calendar;
 import java.util.Date;
 
 import org.apache.http.client.ClientProtocolException;
@@ -15,6 +16,7 @@ import org.json.JSONException;
 //import com.example.adedo.Chofer.PhotoTaker;
 
 import android.app.Activity;
+import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -26,9 +28,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import static com.adedo.Chofer.MY_PREFS_NAME;
@@ -36,7 +40,7 @@ import static com.adedo.Chofer.MY_PREFS_NAME;
 public class Pasajero extends Activity {
 
     private ImageButton im_btn;
-    private EditText mailp, nombrep, telefonop, direccionp, dnip, facebookp;
+    private EditText mailp, nombrep, telefonop, direccionp, dnip;
     //public static final int REQUEST_IMAGE_CAPTURE = 1;
     //private byte[] imageCache;
     //private Bitmap thumbnail;
@@ -48,7 +52,11 @@ public class Pasajero extends Activity {
     //private byte[] blob;
     private Date c = new Date();
     private int año = 0;
-    private Spinner lista, lista2, lista3;
+    private int mes = 0;
+    private int dia = 0;
+    private TextView select_date;
+    String facebookp;
+    //private Spinner lista, lista2, lista3;
     private String[] datos = {"Día", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18",
             "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"};
     private String[] datos2 = {"Mes", "ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"};
@@ -79,7 +87,7 @@ public class Pasajero extends Activity {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            Toast.makeText(getApplicationContext(), "Resgistró correctamente la informaciÃ³n", 3000).show();
+            Toast.makeText(getApplicationContext(), "Resgistró correctamente la informaciÃ³n", Toast.LENGTH_SHORT).show();
         }
     };
 
@@ -96,68 +104,50 @@ public class Pasajero extends Activity {
         direccionp = (EditText) findViewById(R.id.editText3);
         cb = (CheckBox) findViewById(R.id.checkBox);
         dnip = (EditText) findViewById(R.id.editText15);
-        facebookp = (EditText) findViewById(R.id.editText16);
+       // facebookp = (EditText) findViewById(R.id.editText16);
+        select_date = (TextView) findViewById(R.id.select_date);
 
         String mail = getIntent().hasExtra("email") ? getIntent().getExtras().getString("email") : "";
         mailp.setText(mail);
         String name = getIntent().hasExtra("name") ? getIntent().getExtras().getString("name") : "";
         nombrep.setText(getIntent().getExtras().getString("name"));
 
-        //spinner1
-        lista = (Spinner) findViewById(R.id.spinnerDiap);
-        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
-        lista.setAdapter(adaptador);
-        lista.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
+        String first_name = prefs.getString("first_name", "");
+        String last_name = prefs.getString("last_name", "");
 
+        facebookp = "https://www.facebook.com/"+ first_name + "." + last_name;
+        facebookp = facebookp.trim().toLowerCase();
+
+        select_date.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+            public void onClick(View v) {
+                // Get Current Date
+                final Calendar c = Calendar.getInstance();
+                int mYear = c.get(Calendar.YEAR);
+                int mMonth = c.get(Calendar.MONTH);
+                int mDay = c.get(Calendar.DAY_OF_MONTH);
 
+
+                DatePickerDialog datePickerDialog = new DatePickerDialog(Pasajero.this,
+                        new DatePickerDialog.OnDateSetListener() {
+
+                            @Override
+                            public void onDateSet(DatePicker view, int year,
+                                    int monthOfYear, int dayOfMonth) {
+
+                                año = year;
+                                mes = monthOfYear;
+                                dia = dayOfMonth;
+                                select_date.setText(dayOfMonth + "-" + (monthOfYear + 1) + "-" + year);
+
+                            }
+                        }, mYear, mMonth, mDay);
+                datePickerDialog.show();
             }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
-
-            }
-
         });
 
-        //spinner2
-        lista2 = (Spinner) findViewById(R.id.spinnerMesp);
-        ArrayAdapter<String> adaptador2 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos2);
-        lista2.setAdapter(adaptador2);
-        lista2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
-            @Override
-            public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
-
-            }
-
-        });
-
-        //spinner3
-        lista3 = (Spinner) findViewById(R.id.spinnerAñop);
-        ArrayAdapter<String> adaptador3 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos3);
-        lista3.setAdapter(adaptador3);
-        lista3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
-            @Override
-            public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
-
-            }
-
-        });
-
-        Toast.makeText(getApplicationContext(), "Si ya esta registrado solo ingrese su mail !", 5000).show();
+        Toast.makeText(getApplicationContext(), "Si ya esta registrado solo ingrese su mail !", Toast.LENGTH_SHORT).show();
 
         //im_btn = (ImageButton)findViewById(R.id.im_foto);
         //im_btn.setOnClickListener(new PhotoTaker());
@@ -202,46 +192,37 @@ public class Pasajero extends Activity {
 
     public void verificaciones() throws IOException {
         if (nombrep.getText().toString().equals(""))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el nombre", 3000).show();
+            Toast.makeText(getApplicationContext(), "Debe ingresar el nombre", Toast.LENGTH_SHORT).show();
         else if (direccionp.getText().toString().equals(""))
-            Toast.makeText(getApplicationContext(), "Debe ingresar la dirección", 3000).show();
+            Toast.makeText(getApplicationContext(), "Debe ingresar la dirección", Toast.LENGTH_SHORT).show();
         else if (telefonop.getText().toString().equals(""))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el teléfono", 3000).show();
-        else if (lista.getSelectedItem().equals("Día"))
+            Toast.makeText(getApplicationContext(), "Debe ingresar el teléfono", Toast.LENGTH_SHORT).show();
+        /*else if (lista.getSelectedItem().equals("Día"))
             Toast.makeText(getApplicationContext(), "Debe ingresar el día de su nacimiento", 3000).show();
         else if (lista2.getSelectedItem().equals("Mes"))
             Toast.makeText(getApplicationContext(), "Debe ingresar el mes de su nacimiento", 3000).show();
         else if (lista3.getSelectedItem().equals("Año"))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el año de su nacimiento", 3000).show();
+            Toast.makeText(getApplicationContext(), "Debe ingresar el año de su nacimiento", 3000).show();*/
         else {
-            año = new Integer(lista3.getSelectedItem().toString()).intValue();
+            //año = new Integer(lista3.getSelectedItem().toString()).intValue();
             if (((c.getYear() + 1900) - año) < 18)
-                Toast.makeText(getApplicationContext(), "Debe ser mayor de 18 años para poder registrarse", 3000).show();
+                Toast.makeText(getApplicationContext(), "Debe ser mayor de 18 años para poder registrarse", Toast.LENGTH_SHORT).show();
             else if (dnip.getText().toString().equals(""))
-                Toast.makeText(getApplicationContext(), "Debe ingresar su documento de identidad", 3000).show();
+                Toast.makeText(getApplicationContext(), "Debe ingresar su documento de identidad", Toast.LENGTH_SHORT).show();
             else if (!cb.isChecked())
-                Toast.makeText(getApplicationContext(), "Debe aceptar los TÃ©rminos y Condiciones para seguir, antes debe leerlo", 3000).show();
+                Toast.makeText(getApplicationContext(), "Debe aceptar los TÃ©rminos y Condiciones para seguir, antes debe leerlo", Toast.LENGTH_SHORT).show();
             else {
 
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        //httpGetData(Utilities.getUrl(getApplicationContext()) + "/registro_pasajeros.php?mailp=" + mailp.getText() + "&nombrep="
-                        // + nombrep.getText() + "&telefonop=" + telefonop.getText() + "&direccionp=" + direccionp.getText() + "&nacimientop=" +
-                        // lista.getSelectedItem().toString() + "/" + lista2.getSelectedItem().toString() + "/" + lista3.getSelectedItem().toString
-                        // () + "&dnip=" + dnip.getText() + "&facebookp=" + facebookp.getText());
                         httpGetData(Utilities.getUrl(getApplicationContext()) + "/registro_chofer.php?mailc=" + mailp.getText()
                                                                                                                      .toString()
                                                                                                                      .replace("\"", "") +
                                 "&nombrec=" + nombrep
                                 .getText() + "&telefonoc=" + telefonop.getText() + "&direccionc=" + direccionp.getText() + "" + "&nacimientoc=" +
-                                lista
-                                        .getSelectedItem()
-                                        .toString() + "/" + lista2.getSelectedItem()
-                                                                  .toString() + "/" + lista3.getSelectedItem() + "&dnic=" + dnip.getText() +
-                                "&facebookc="
-                                + facebookp
-                                .getText());
+                                dia + "/" + mes + "/" + año + "&dnic=" + dnip.getText() +
+                                "&facebookc=" + facebookp);
                         h1.sendEmptyMessage(1);
                     }
                 }).start();

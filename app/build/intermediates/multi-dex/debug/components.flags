@@ -25,7 +25,7 @@
     <init>();
 }
 
--keep class com.adedo.Viaje {
+-keep class com.adedo.Viaje_chofer {
     <init>();
 }
 
@@ -86,6 +86,10 @@
 }
 
 -keep class com.adedo.CrearViajePasajero {
+    <init>();
+}
+
+-keep class com.adedo.RegisterActivity {
     <init>();
 }
 

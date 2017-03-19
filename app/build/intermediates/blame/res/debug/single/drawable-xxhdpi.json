@@ -72,12 +72,12 @@
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/drawable-xxhdpi/ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/messenger_bubble_small_white.png",
-        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/drawable-xxhdpi/messenger_bubble_small_white.png"
-    },
-    {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xxhdpi/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/messenger_bubble_small_white.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/drawable-xxhdpi/messenger_bubble_small_white.png"
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_go_search_api_mtrl_alpha.png",
@@ -120,12 +120,12 @@
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xxhdpi/abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png",
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xxhdpi/abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png",
@@ -300,12 +300,12 @@
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png",
-        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png"
-    },
-    {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/com_facebook_button_like_icon_selected.png",
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/drawable-xxhdpi/com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png"
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png",

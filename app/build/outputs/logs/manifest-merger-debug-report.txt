@@ -1,22 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:2:1-127:12
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:2:1-133:12
 	package
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:3:5-24
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:2:11-30
 		INJECTED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:5:5-30
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:5:11-36
 		INJECTED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:4:5-28
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:4:11-34
 		INJECTED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:3:11-69
 uses-sdk
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:7:5-9:41
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:7:5-9:40
 MERGED from [com.facebook.android:facebook-android-sdk:4.4.0] /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:support-v4:23.1.1] /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services:7.0.0] /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/7.0.0/AndroidManifest.xml:18:5-42
@@ -52,15 +52,15 @@ MERGED from [com.android.support:recyclerview-v7:23.1.1] /Users/raulstriglio/Doc
 		INJECTED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:11:5-67
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:11:5-66
 	android:name
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:12:5-79
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:12:5-78
 	android:name
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:13:5-81
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:13:5-80
 	android:name
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:13:22-78
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
@@ -68,11 +68,11 @@ ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/ap
 	android:name
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:14:22-95
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:15:5-79
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:15:5-78
 	android:name
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:15:22-76
 application
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:17:5-125:19
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:17:5-131:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.4.0] /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/AndroidManifest.xml:28:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services:7.0.0] /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/7.0.0/AndroidManifest.xml:19:5-20
@@ -114,11 +114,11 @@ ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/ap
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:26:17-69
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:26:17-68
 	android:name
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:27:17-76
 	android:name
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:27:27-74
 activity#com.adedo.Chofer
@@ -133,12 +133,12 @@ ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/ap
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:36:13-45
 	android:name
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:35:13-46
-activity#com.adedo.Viaje
+activity#com.adedo.Viaje_chofer
 ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:38:9-41:20
 	android:label
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:40:13-45
 	android:name
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:39:13-43
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:39:13-50
 activity#com.adedo.Confirmacion_Viaje
 ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:42:9-45:20
 	android:label
@@ -229,36 +229,42 @@ ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/ap
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:102:13-45
 	android:name
 		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:101:13-56
-activity#com.facebook.FacebookActivity
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:106:9-110:75
+activity#com.adedo.RegisterActivity
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:105:9-109:20
 	android:label
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:109:13-45
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:107:13-45
+	android:name
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:106:13-54
+activity#com.facebook.FacebookActivity
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:112:9-116:74
+	android:label
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:115:13-45
 	android:configChanges
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:108:13-96
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:114:13-96
 	android:theme
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:110:13-72
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:116:13-72
 	android:name
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:107:13-57
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:113:13-57
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:112:9-114:46
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:118:9-120:45
 	android:value
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:114:13-43
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:120:13-43
 	android:name
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:113:13-58
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:119:13-58
 meta-data#com.facebook.sdk.ApplicationName
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:115:9-117:57
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:121:9-123:56
 	android:value
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:117:13-54
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:123:13-54
 	android:name
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:116:13-60
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:122:13-60
 provider#com.facebook.FacebookContentProvider
-ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:119:9-122:39
+ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:125:9-128:38
 	android:authorities
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:121:13-44
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:127:13-44
 	android:exported
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:122:13-36
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:128:13-36
 	android:name
-		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:120:13-64
+		ADDED from /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/AndroidManifest.xml:126:13-64
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-base:7.0.0] /Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:21:9-23:69
 	android:value

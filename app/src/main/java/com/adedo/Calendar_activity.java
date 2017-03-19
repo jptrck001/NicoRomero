@@ -48,7 +48,7 @@ public class Calendar_activity extends AppCompatActivity implements OnDateSelect
         ButterKnife.bind(this);
         widget.setOnDateChangedListener(this);
         widget.setOnMonthChangedListener(this);
-        widget.addDecorator(new OneDayDecorator());
+        //widget.addDecorator(new OneDayDecorator());
     }
 
     @Override
@@ -58,8 +58,6 @@ public class Calendar_activity extends AppCompatActivity implements OnDateSelect
         i.putExtra("mes",String.valueOf(date.getMonth()));
         i.putExtra("año", String.valueOf(date.getYear()));
         startActivity(i);
-        finish();
-
     }
 
     @Override

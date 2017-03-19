@@ -16,8 +16,11 @@ public class Item_viaje {
     protected float promedio;
     protected int viajes;
     protected int idv;
+    private String comentarios;
+    private String perfil;
 
-    public Item_viaje(Drawable foto, String nombre, int cantidad_asientos_disponibles, String mailc, int cantOcupadoa, String facebookc, String vehiculoc, String partida, String llegada, int hora, float promedio, int viajes, int idv) {
+    public Item_viaje(Drawable foto, String nombre, int cantidad_asientos_disponibles, String mailc, int cantOcupadoa, String facebookc, String vehiculoc, String partida, String llegada, int hora,
+            float promedio, int viajes, int idv, String comentarios, String perfil) {
         super();
         this.foto = foto;
         this.nombre = nombre;
@@ -32,6 +35,8 @@ public class Item_viaje {
         this.promedio = promedio;
         this.viajes = viajes;
         this.idv = idv;
+        this.comentarios = comentarios;
+        this.perfil = perfil;
     }
     
     public float getIdv() {
@@ -96,5 +101,17 @@ public class Item_viaje {
 
     public void setCantidad_asientos_disponibles(int cantidad_asientos_disponibles) {
         this.cantidad_asientos_disponibles = cantidad_asientos_disponibles;
+    }
+
+    public String getPerfil() {
+        return perfil;
+    }
+
+    public void setPerfil(String perfil) {
+        this.perfil = perfil;
+    }
+
+    public String getComentarios() {
+        return comentarios;
     }
 }

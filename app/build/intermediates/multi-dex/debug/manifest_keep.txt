@@ -1,7 +1,7 @@
 -keep class com.adedo.ADedo { <init>(); }
 -keep class com.adedo.Chofer { <init>(); }
 -keep class com.adedo.Pasajero { <init>(); }
--keep class com.adedo.Viaje { <init>(); }
+-keep class com.adedo.Viaje_chofer { <init>(); }
 -keep class com.adedo.Confirmacion_Viaje { <init>(); }
 -keep class com.adedo.Cuando_viajas { <init>(); }
 -keep class com.adedo.Lista_viajes { <init>(); }
@@ -17,5 +17,6 @@
 -keep class com.adedo.Calendar_activity { <init>(); }
 -keep class com.adedo.DayTrips_Activity { <init>(); }
 -keep class com.adedo.CrearViajePasajero { <init>(); }
+-keep class com.adedo.RegisterActivity { <init>(); }
 -keep class com.facebook.FacebookActivity { <init>(); }
 -keep class com.facebook.FacebookContentProvider { <init>(); }

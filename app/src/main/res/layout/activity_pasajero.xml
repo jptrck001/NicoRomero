@@ -96,53 +96,41 @@
 			                android:paddingLeft="20sp"
 			                android:hint="Teléfono"
 			                android:inputType="phone" />
-			            
-			            <TextView
-                            android:id="@+id/tv_fecha"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:text="Fecha de nacimiento" 
-                            android:textColor="#000"
-                            android:textSize="15sp"
-                            android:textStyle="bold"
-                            android:paddingLeft="20sp"
-                            android:layout_below="@+id/editText4"/>
-			            
-			            <Spinner
-                            android:id="@+id/spinnerMesp"
-                            android:layout_width="90sp"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/tv_fecha"
-                            android:layout_alignTop="@+id/spinnerDiap" />
 
-                        <Spinner
-                            android:id="@+id/spinnerAñop"
-                            android:layout_width="110sp"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/tv_fecha"
-                            android:layout_toRightOf="@+id/tv_fecha" />
+						<TextView
+							android:id="@+id/tv_fecha"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_alignParentLeft="true"
+							android:layout_below="@+id/editText4"
+							android:paddingLeft="20sp"
+							android:text="Fecha de nacimiento:"
+							android:textColor="#000"
+							android:textSize="15sp"
+							android:textStyle="bold"/>
 
-                        <Spinner
-                            android:id="@+id/spinnerDiap"
-                            android:layout_width="95sp"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/tv_fecha"
-                            android:layout_toLeftOf="@+id/spinnerMesp" />
+						<TextView
+							android:id="@+id/select_date"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingLeft="20sp"
+							android:paddingTop="10dp"
+							android:layout_below="@+id/tv_fecha"
+							android:hint="Seleccione Fecha >"/>
                         
-                        <EditText
+                       <!-- <EditText
                             android:id="@+id/editText15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             android:layout_alignParentRight="true"
-                            android:layout_below="@+id/spinnerAñop"
+                            android:layout_below="@+id/select_date"
                             android:ems="10"
                             android:paddingLeft="20sp"
                             android:hint="D.N.I"
-                            android:inputType="number" />
+                            android:inputType="number" />-->
 
-                        <EditText
+                        <!--<EditText
                             android:id="@+id/editText16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -153,12 +141,12 @@
                             android:paddingLeft="20sp"
                             android:hint="Facebook (no es obligatorio)"
                             android:inputType="text"
-							android:visibility="gone"/>
+							android:visibility="gone"/>-->
 
 					<RelativeLayout
 		                    android:layout_width="match_parent"
 		                    android:layout_height="match_parent"
-		                    android:layout_below="@+id/editText16">
+		                    android:layout_below="@+id/select_date">
 		                    
 	                        <ImageButton
 
@@ -190,16 +178,19 @@
 	                            android:onClick="TerminosCondiciones"
 	                            android:textColor="#FFD700" />
 
-	                        <ImageButton
-	                            android:id="@+id/imageButton1"
-	                            android:layout_width="40sp"
-	                            android:layout_height="40sp"
-	                            android:layout_alignTop="@+id/ib_siguiente_registro"
-	                            android:layout_centerHorizontal="true"
-	                            android:background="@drawable/home"
-	                            android:onClick="atras" />
+						<ImageButton
+							android:id="@+id/imageButton1"
+							android:layout_width="40sp"
+							android:layout_height="40sp"
+							android:layout_marginLeft="28dp"
+							android:background="@drawable/home"
+							android:onClick="atras"
+							android:layout_below="@+id/checkBox"
+							android:layout_toRightOf="@+id/button1"
+							android:layout_toEndOf="@+id/button1"
+							android:layout_marginStart="28dp"/>
 
-	                    </RelativeLayout>
+					</RelativeLayout>
 
 			            </RelativeLayout>
                 </LinearLayout>
