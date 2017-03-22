@@ -135,6 +135,7 @@ public class AdapterDirectivos extends BaseAdapter {
         TextView tipo = (TextView) v.findViewById(R.id.tipo);
         if (dir.getCantidad_asientos_disponibles() > 10) {
             tipo.setText("Pasajero");
+            tipo.setBackgroundColor(context.getResources().getColor(R.color.Orange));
         } else {
             tipo.setText("Chofer");
             tipo.setBackgroundColor(Color.BLUE);

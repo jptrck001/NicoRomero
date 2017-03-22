@@ -116,7 +116,7 @@
 							android:paddingLeft="20sp"
 							android:paddingTop="10dp"
 							android:layout_below="@+id/tv_fecha"
-							android:hint="Seleccione Fecha >"/>
+							android:hint="@string/select_date"/>
                         
                        <!-- <EditText
                             android:id="@+id/editText15"

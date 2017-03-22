@@ -236,6 +236,7 @@ com/google/android/gms/internal/zzdi.class
 com/google/ads/mediation/MediationInterstitialAdapter.class
 com/google/android/gms/ads/mediation/admob/AdMobExtras.class
 org/apache/http/client/methods/AbortableHttpRequest.class
+com/adedo/R$string.class
 android/support/annotation/IntegerRes.class
 com/google/android/gms/games/multiplayer/Participant.class
 android/support/v7/widget/RecyclerView$ViewFlinger.class

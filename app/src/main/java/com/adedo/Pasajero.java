@@ -40,12 +40,8 @@ import static com.adedo.Chofer.MY_PREFS_NAME;
 public class Pasajero extends Activity {
 
     private ImageButton im_btn;
-    private EditText mailp, nombrep, telefonop, direccionp, dnip;
-    //public static final int REQUEST_IMAGE_CAPTURE = 1;
-    //private byte[] imageCache;
-    //private Bitmap thumbnail;
+    private EditText mailp, nombrep, telefonop, direccionp;
     private Context contetx;
-    //private String b64Picture;
     private JSONArray ja;
     private String data;
     private CheckBox cb;
@@ -103,8 +99,6 @@ public class Pasajero extends Activity {
         telefonop = (EditText) findViewById(R.id.editText4);
         direccionp = (EditText) findViewById(R.id.editText3);
         cb = (CheckBox) findViewById(R.id.checkBox);
-        dnip = (EditText) findViewById(R.id.editText15);
-       // facebookp = (EditText) findViewById(R.id.editText16);
         select_date = (TextView) findViewById(R.id.select_date);
 
         String mail = getIntent().hasExtra("email") ? getIntent().getExtras().getString("email") : "";
@@ -116,7 +110,7 @@ public class Pasajero extends Activity {
         String first_name = prefs.getString("first_name", "");
         String last_name = prefs.getString("last_name", "");
 
-        facebookp = "https://www.facebook.com/"+ first_name + "." + last_name;
+        facebookp = "https://www.facebook.com/" + first_name + "." + last_name;
         facebookp = facebookp.trim().toLowerCase();
 
         select_date.setOnClickListener(new View.OnClickListener() {
@@ -197,20 +191,15 @@ public class Pasajero extends Activity {
             Toast.makeText(getApplicationContext(), "Debe ingresar la dirección", Toast.LENGTH_SHORT).show();
         else if (telefonop.getText().toString().equals(""))
             Toast.makeText(getApplicationContext(), "Debe ingresar el teléfono", Toast.LENGTH_SHORT).show();
-        /*else if (lista.getSelectedItem().equals("Día"))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el día de su nacimiento", 3000).show();
-        else if (lista2.getSelectedItem().equals("Mes"))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el mes de su nacimiento", 3000).show();
-        else if (lista3.getSelectedItem().equals("Año"))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el año de su nacimiento", 3000).show();*/
+        else if (select_date.getText().toString().isEmpty() || select_date.getText().toString().equals(getString(R.string.select_date)))
+            Toast.makeText(getApplicationContext(), "Debe ingresar la fecha de nacimiento", Toast.LENGTH_SHORT).show();
         else {
             //año = new Integer(lista3.getSelectedItem().toString()).intValue();
             if (((c.getYear() + 1900) - año) < 18)
                 Toast.makeText(getApplicationContext(), "Debe ser mayor de 18 años para poder registrarse", Toast.LENGTH_SHORT).show();
-            else if (dnip.getText().toString().equals(""))
-                Toast.makeText(getApplicationContext(), "Debe ingresar su documento de identidad", Toast.LENGTH_SHORT).show();
             else if (!cb.isChecked())
-                Toast.makeText(getApplicationContext(), "Debe aceptar los TÃ©rminos y Condiciones para seguir, antes debe leerlo", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Debe aceptar los TÃ©rminos y Condiciones para seguir, antes debe leerlo", Toast.LENGTH_SHORT)
+                     .show();
             else {
 
                 new Thread(new Runnable() {
@@ -221,8 +210,7 @@ public class Pasajero extends Activity {
                                                                                                                      .replace("\"", "") +
                                 "&nombrec=" + nombrep
                                 .getText() + "&telefonoc=" + telefonop.getText() + "&direccionc=" + direccionp.getText() + "" + "&nacimientoc=" +
-                                dia + "/" + mes + "/" + año + "&dnic=" + dnip.getText() +
-                                "&facebookc=" + facebookp);
+                                dia + "/" + mes + "/" + año + "&dnic=" + "&facebookc=" + facebookp);
                         h1.sendEmptyMessage(1);
                     }
                 }).start();

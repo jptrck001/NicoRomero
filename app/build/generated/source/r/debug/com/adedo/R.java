@@ -2765,15 +2765,16 @@ containing a value of this type.
         public static final int facebook_app_name=0x7f06004d;
         public static final int message_facebook=0x7f06004e;
         public static final int messenger_send_button_text=0x7f060042;
+        public static final int select_date=0x7f06004f;
         public static final int status_bar_notification_info_overflow=0x7f060043;
-        public static final int store_picture_message=0x7f06004f;
-        public static final int store_picture_title=0x7f060050;
-        public static final int string_url=0x7f060051;
-        public static final int string_url_serverFree=0x7f060052;
-        public static final int title_activity_chofer_viaje=0x7f060053;
-        public static final int title_activity_pasajero_viaje=0x7f060054;
-        public static final int title_activity_viaje_actual_pasajero=0x7f060055;
-        public static final int title_activity_viajes_fecha_actual=0x7f060056;
+        public static final int store_picture_message=0x7f060050;
+        public static final int store_picture_title=0x7f060051;
+        public static final int string_url=0x7f060052;
+        public static final int string_url_serverFree=0x7f060053;
+        public static final int title_activity_chofer_viaje=0x7f060054;
+        public static final int title_activity_pasajero_viaje=0x7f060055;
+        public static final int title_activity_viaje_actual_pasajero=0x7f060056;
+        public static final int title_activity_viajes_fecha_actual=0x7f060057;
         public static final int wallet_buy_button_place_holder=0x7f060044;
     }
     public static final class style {

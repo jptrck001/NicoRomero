@@ -118,7 +118,7 @@ public class Chofer extends Activity {
         String last_name = prefs.getString("last_name", "");
 
 
-        facebook = "https://www.facebook.com/"+ first_name + "." + last_name;
+        facebook = "https://www.facebook.com/" + first_name + "." + last_name;
         facebook = facebook.trim().toLowerCase();
 
         select_date.setOnClickListener(new View.OnClickListener() {
@@ -148,78 +148,8 @@ public class Chofer extends Activity {
                 datePickerDialog.show();
             }
         });
-        //spinner1
-        //lista = (Spinner) findViewById(R.id.spinnerDia);
-        /*ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
-        lista.setAdapter(adaptador);
-        lista.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
-            @Override
-            public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
-
-            }
-
-        });
-
-        //spinner2
-        //lista2 = (Spinner) findViewById(R.id.spinnerMes);
-        /*ArrayAdapter<String> adaptador2 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos2);
-        lista2.setAdapter(adaptador2);
-        lista2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
-            @Override
-            public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
-
-            }
-
-        });
-
-        //spinner3
-        //lista3 = (Spinner) findViewById(R.id.spinnerAño);
-        //ArrayAdapter<String> adaptador3 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos3);
-        //lista3.setAdapter(adaptador3);
-        /*lista3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
-            @Override
-            public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
-
-            }
-
-        });*/
-
         Toast.makeText(getApplicationContext(), "Si ya esta registrado solo ingrese su mail !", Toast.LENGTH_SHORT).show();
-
-        //im_btn = (ImageButton)findViewById(R.id.ImageButton);
-        //im_btn.setOnClickListener(new PhotoTaker());
     }
-    
-    /*@Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        //muestro la foto    
-        if (resultCode != RESULT_CANCELED && requestCode == REQUEST_IMAGE_CAPTURE ){
-            // show image
-            thumbnail = (Bitmap) data.getExtras().get("data");
-            im_btn.setBackgroundColor(Color.rgb(255, 215, 0));
-            im_btn.setImageBitmap(thumbnail);
-            im_btn.setVisibility(View.VISIBLE);
-        }
-    }*/
 
     public void TerminosCondiciones(View view) {
         Intent i = new Intent(Chofer.this, Terminos.class);
@@ -251,10 +181,6 @@ public class Chofer extends Activity {
     }
 
     public void siguiente(View view) {
-        /*if (mailc.getText().toString().equals(""))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el mail", Toast.LENGTH_SHORT).show();
-        else
-            estaRegistrado(mailc.getText().toString());*/
         try {
             verificaciones();
         } catch (IOException e) {
@@ -275,12 +201,8 @@ public class Chofer extends Activity {
             Toast.makeText(getApplicationContext(), "Debe ingresar la dirección", Toast.LENGTH_SHORT).show();
         else if (telefonoc.getText().toString().equals(""))
             Toast.makeText(getApplicationContext(), "Debe ingresar el teléfono", Toast.LENGTH_SHORT).show();
-        /*else if (lista.getSelectedItem().equals("Día"))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el día de su nacimiento", Toast.LENGTH_SHORT).show();
-        else if (lista2.getSelectedItem().equals("Mes"))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el mes de su nacimiento", Toast.LENGTH_SHORT).show();
-        else if (lista3.getSelectedItem().equals("Año"))
-            Toast.makeText(getApplicationContext(), "Debe ingresar el año de su nacimiento", Toast.LENGTH_SHORT).show();*/
+        else if (select_date.getText().toString().isEmpty() || select_date.getText().toString().equals(getString(R.string.select_date)))
+            Toast.makeText(getApplicationContext(), "Debe ingresar la fecha de nacimiento", Toast.LENGTH_SHORT).show();
         else {
             if (((c.getYear() + 1900) - año) < 18)
                 Toast.makeText(getApplicationContext(), "Debe ser mayor de 18 años para poder registrarse", Toast.LENGTH_SHORT).show();
@@ -338,15 +260,4 @@ public class Chofer extends Activity {
 
         return response;
     }
-    
-    /*class PhotoTaker implements Button.OnClickListener
-    {
-        @Override
-        public void onClick(View v) {
-            Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-                startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
-            }
-        }
-    }*/
 }

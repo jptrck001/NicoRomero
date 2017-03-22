@@ -19,8 +19,7 @@
     <string name="string_url_serverFree">http://adedobyethost23.byethost10.com/aDedo</string>
 
     <string name="empty_list">No se encontraron viajes registrados</string>
-
-
+    <string name="select_date">Seleccione Fecha ></string>
     <string name="message_facebook">Hola!, me contacto desde la App A Dedo para coordinar un viaje</string>
 
 </resources>

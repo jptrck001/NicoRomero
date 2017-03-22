@@ -152,7 +152,7 @@
                     android:layout_below="@+id/tv_fecha"
                     android:layout_marginLeft="20dp"
                     android:background="@color/com_facebook_blue"
-                    android:hint="Seleccione Fecha >"
+                    android:hint="@string/select_date"
                     android:padding="2dp"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
