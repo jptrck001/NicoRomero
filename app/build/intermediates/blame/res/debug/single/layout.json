@@ -8,12 +8,12 @@
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
@@ -36,16 +36,16 @@
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/3.1.3/res/layout/mdtp_time_picker_dialog_v2.xml"
     },
     {
-        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/activity_adedo.xml",
-        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_adedo.xml"
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_layout_tab_text.xml"
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_layout_tab_text.xml"
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/activity_adedo.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_adedo.xml"
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
@@ -100,12 +100,12 @@
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/3.1.3/res/layout/mdtp_done_button.xml"
     },
     {
-        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/messenger_button_send_white_round.xml",
-        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/messenger_button_send_white_round.xml"
-    },
-    {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/activity_comentarios.xml",
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_comentarios.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/messenger_button_send_white_round.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/messenger_button_send_white_round.xml"
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
