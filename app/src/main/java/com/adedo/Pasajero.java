@@ -110,7 +110,7 @@ public class Pasajero extends Activity {
         String first_name = prefs.getString("first_name", "");
         String last_name = prefs.getString("last_name", "");
 
-        facebookp = "https://www.facebook.com/" + first_name + "." + last_name;
+        facebookp = prefs.getString("facebookPrifle", "");
         facebookp = facebookp.trim().toLowerCase();
 
         select_date.setOnClickListener(new View.OnClickListener() {

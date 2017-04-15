@@ -67,12 +67,8 @@ public class Confirmacion_Viaje extends Activity {
         info.setText(infoToShow);
 
         SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
-        String first_name = prefs.getString("first_name", "");
-        String last_name = prefs.getString("last_name", "");
-
-
-        facebook = "https://www.facebook.com/" + first_name + "." + last_name;
-        facebook = facebook.toLowerCase().trim();
+        facebook = prefs.getString("facebookPrifle", "");
+        facebook = facebook.trim().toLowerCase();
 
     }
 

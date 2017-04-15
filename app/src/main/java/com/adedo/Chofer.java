@@ -118,7 +118,7 @@ public class Chofer extends Activity {
         String last_name = prefs.getString("last_name", "");
 
 
-        facebook = "https://www.facebook.com/" + first_name + "." + last_name;
+        facebook = prefs.getString("facebookPrifle","");
         facebook = facebook.trim().toLowerCase();
 
         select_date.setOnClickListener(new View.OnClickListener() {
@@ -229,7 +229,6 @@ public class Chofer extends Activity {
                 }).start();
                 Intent i = new Intent(Chofer.this, Principal.class);
                 i.putExtra("email", mailc.getText().toString());
-                //                insertInSharePref();
                 startActivity(i);
                 finish();
             }
