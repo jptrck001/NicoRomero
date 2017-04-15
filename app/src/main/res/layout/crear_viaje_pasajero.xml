@@ -216,6 +216,7 @@
                     android:layout_height="60dp"
                     android:layout_below="@+id/comments_title"
                     android:maxLines="5"
+                    android:hint="@string/comments_hint"
                     android:textSize="12sp"/>
 
                 <ImageButton

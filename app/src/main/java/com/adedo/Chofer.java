@@ -257,7 +257,6 @@ public class Chofer extends Activity {
         }
 
         insertInSharePref();
-
         return response;
     }
 }

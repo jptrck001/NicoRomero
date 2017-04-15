@@ -217,9 +217,10 @@
                     android:id="@+id/comentarios"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:textSize="12sp"
                     android:layout_below="@+id/comments_title"
-                    android:maxLines="5"/>
+                    android:hint="@string/comments_hint"
+                    android:maxLines="5"
+                    android:textSize="12sp"/>
 
                 <ImageButton
                     android:id="@+id/imageButton1"

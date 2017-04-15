@@ -41,7 +41,6 @@ public class RegisterActivity extends AppCompatActivity {
     private RelativeLayout fakeButton;
     private String radioChecked = "";
     private boolean inserted = false;
-    private RadioGroup radioGroup;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -51,7 +50,6 @@ public class RegisterActivity extends AppCompatActivity {
         retrieveFromPref();
         FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(this);
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         fakeButton = (RelativeLayout) findViewById(R.id.fakeButton);
         fakeButton.setOnClickListener(new View.OnClickListener() {

@@ -20,6 +20,9 @@
 
     <string name="empty_list">No se encontraron viajes registrados</string>
     <string name="select_date">Seleccione Fecha ></string>
+
+    <string name="comments_hint">viajas con un amigo? necesitas enviar algo? poné información que la otra parte necesita saber</string>
+
     <string name="message_facebook">Hola!, me contacto desde la App A Dedo para coordinar un viaje</string>
 
 </resources>

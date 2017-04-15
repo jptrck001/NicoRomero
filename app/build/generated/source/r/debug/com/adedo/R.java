@@ -2727,6 +2727,7 @@ containing a value of this type.
         public static final int com_facebook_send_button_text=0x7f060020;
         public static final int com_facebook_share_button_text=0x7f060021;
         public static final int com_facebook_tooltip_default=0x7f060022;
+        public static final int comments_hint=0x7f060049;
         public static final int common_android_wear_notification_needs_update_text=0x7f060023;
         public static final int common_android_wear_update_text=0x7f060024;
         public static final int common_android_wear_update_title=0x7f060025;
@@ -2758,23 +2759,23 @@ containing a value of this type.
         public static final int common_signin_button_text=0x7f06003f;
         public static final int common_signin_button_text_long=0x7f060040;
         public static final int commono_google_play_services_api_unavailable_text=0x7f060041;
-        public static final int create_calendar_message=0x7f060049;
-        public static final int create_calendar_title=0x7f06004a;
-        public static final int decline=0x7f06004b;
-        public static final int empty_list=0x7f06004c;
-        public static final int facebook_app_name=0x7f06004d;
-        public static final int message_facebook=0x7f06004e;
+        public static final int create_calendar_message=0x7f06004a;
+        public static final int create_calendar_title=0x7f06004b;
+        public static final int decline=0x7f06004c;
+        public static final int empty_list=0x7f06004d;
+        public static final int facebook_app_name=0x7f06004e;
+        public static final int message_facebook=0x7f06004f;
         public static final int messenger_send_button_text=0x7f060042;
-        public static final int select_date=0x7f06004f;
+        public static final int select_date=0x7f060050;
         public static final int status_bar_notification_info_overflow=0x7f060043;
-        public static final int store_picture_message=0x7f060050;
-        public static final int store_picture_title=0x7f060051;
-        public static final int string_url=0x7f060052;
-        public static final int string_url_serverFree=0x7f060053;
-        public static final int title_activity_chofer_viaje=0x7f060054;
-        public static final int title_activity_pasajero_viaje=0x7f060055;
-        public static final int title_activity_viaje_actual_pasajero=0x7f060056;
-        public static final int title_activity_viajes_fecha_actual=0x7f060057;
+        public static final int store_picture_message=0x7f060051;
+        public static final int store_picture_title=0x7f060052;
+        public static final int string_url=0x7f060053;
+        public static final int string_url_serverFree=0x7f060054;
+        public static final int title_activity_chofer_viaje=0x7f060055;
+        public static final int title_activity_pasajero_viaje=0x7f060056;
+        public static final int title_activity_viaje_actual_pasajero=0x7f060057;
+        public static final int title_activity_viajes_fecha_actual=0x7f060058;
         public static final int wallet_buy_button_place_holder=0x7f060044;
     }
     public static final class style {
