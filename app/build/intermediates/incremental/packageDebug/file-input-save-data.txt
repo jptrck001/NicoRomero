@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Apr 15 12:46:24 ART 2017
+#Sun Apr 16 12:36:25 ART 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_icon.xml
 14.set=ANDROID_RESOURCE
@@ -74,7 +74,7 @@
 229.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/anterior.png
 225.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 204.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_view.xml
-127.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+127.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/common_signin_btn_text_pressed_dark.9.png
 63.set=ANDROID_RESOURCE
 6.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 5.set=ANDROID_RESOURCE
@@ -268,7 +268,7 @@
 0.set=ANDROID_RESOURCE
 195.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/item_comentarios.xml
 191.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-170.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/common_signin_btn_icon_focus_dark.9.png
+170.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
 162.set=ANDROID_RESOURCE
 268.set=ANDROID_RESOURCE
 37.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
@@ -347,7 +347,7 @@
 140.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 273.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/common_signin_btn_text_disabled_focus_dark.9.png
 196.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_menu_item_layout.xml
-171.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+171.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/common_signin_btn_icon_focus_dark.9.png
 278.set=ANDROID_RESOURCE
 38.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 133.set=ANDROID_RESOURCE
@@ -895,7 +895,7 @@ count=301
 224.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 190.set=ANDROID_RESOURCE
 203.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/color/common_signin_btn_text_dark.xml
-126.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/common_signin_btn_text_pressed_dark.9.png
+126.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
 53.set=ANDROID_RESOURCE
 5.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 255.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png

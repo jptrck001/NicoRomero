@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.view.View;
 
+import com.facebook.Profile;
 import com.facebook.login.LoginManager;
 
 public class Principal extends Activity {
@@ -40,6 +41,13 @@ public class Principal extends Activity {
         name = prefs.getString("name", "");
         first_name = prefs.getString("first_name", "");
         last_name = prefs.getString("last_name", "");
+
+        String facebookPrifle = Profile.getCurrentProfile().getLinkUri().toString();
+
+        SharedPreferences settings = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
+        SharedPreferences.Editor prefEditor = settings.edit();
+        prefEditor.putString("facebookPrifle", facebookPrifle);
+        prefEditor.commit();
     }
 
     public void chofer(View view) {

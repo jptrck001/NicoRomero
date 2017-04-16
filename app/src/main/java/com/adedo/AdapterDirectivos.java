@@ -147,9 +147,9 @@ public class AdapterDirectivos extends BaseAdapter {
         TextView comentariosValue = (TextView) v.findViewById(R.id.comentariosValue);
 
         if (dir.getComentarios() == null || dir.getComentarios().isEmpty() || dir.getComentarios().equals("null")) {
-            comentariosValue.setText(dir.getComentarios());
-        } else {
             comentariosValue.setVisibility(View.GONE);
+        } else {
+            comentariosValue.setText(dir.getComentarios());
         }
 
         TextView partida = (TextView) v.findViewById(R.id.origen_value);

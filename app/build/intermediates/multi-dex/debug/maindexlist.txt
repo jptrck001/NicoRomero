@@ -90,6 +90,7 @@ butterknife/OnClick.class
 com/adedo/Lista_viajes$2$1.class
 com/google/android/gms/analytics/GoogleAnalytics.class
 android/support/v4/widget/SlidingPaneLayout.class
+com/facebook/Profile.class
 android/support/v4/media/MediaMetadataCompat$TextKey.class
 com/google/android/gms/internal/zzhy.class
 android/support/v4/media/VolumeProviderCompatApi21$Delegate.class
