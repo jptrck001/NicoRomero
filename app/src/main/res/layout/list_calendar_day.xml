@@ -32,7 +32,7 @@
             android:textSize="21dp" />
     </RelativeLayout>
 
-    <ListView
+    <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/trips_day_list"

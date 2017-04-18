@@ -43,7 +43,6 @@ public class Principal extends Activity {
         last_name = prefs.getString("last_name", "");
 
         String facebookPrifle = Profile.getCurrentProfile().getLinkUri().toString();
-
         SharedPreferences settings = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
         SharedPreferences.Editor prefEditor = settings.edit();
         prefEditor.putString("facebookPrifle", facebookPrifle);

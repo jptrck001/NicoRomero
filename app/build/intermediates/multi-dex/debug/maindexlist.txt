@@ -384,6 +384,7 @@ com/google/android/gms/internal/zzaa.class
 com/adedo/Lista_viajes$AdapterDirectivos.class
 android/support/v4/view/ViewCompat$JbMr2ViewCompatImpl.class
 android/support/v4/view/ViewPager.class
+com/adedo/DayTripsAdapter.class
 com/google/android/gms/internal/zzbv.class
 android/support/v7/widget/RecyclerView$ViewHolder.class
 com/adedo/Lista_calificaciones$3.class
@@ -413,6 +414,7 @@ android/support/v4/widget/MaterialProgressDrawable$3.class
 com/google/android/gms/internal/zzif.class
 org/apache/http/client/methods/HttpUriRequest.class
 android/support/v7/widget/RecyclerView$AdapterDataObservable.class
+com/facebook/GraphRequest.class
 com/prolificinteractive/materialcalendarview/MonthPagerAdapter.class
 com/adedo/CrearViajePasajero$3.class
 com/google/android/gms/internal/zzcg.class
@@ -441,6 +443,7 @@ android/support/v4/view/WindowInsetsCompat.class
 android/support/annotation/InterpolatorRes.class
 android/support/v4/view/ViewCompat$LollipopViewCompatImpl.class
 org/apache/http/impl/client/DefaultRedirectHandler.class
+android/support/v7/widget/helper/ItemTouchHelper$ViewDropHandler.class
 com/google/android/gms/plus/Account.class
 com/prolificinteractive/materialcalendarview/DirectionButton.class
 android/support/v4/view/ViewCompatMarshmallow.class
@@ -467,6 +470,7 @@ com/google/android/gms/internal/zzau.class
 org/apache/http/impl/client/AbstractHttpClient.class
 android/support/v4/util/ArrayMap$1.class
 com/google/android/gms/internal/zzgk$zza.class
+android/support/v7/widget/LinearLayoutManager.class
 android/support/annotation/ArrayRes.class
 com/google/android/gms/internal/zzhm.class
 com/google/android/gms/internal/zzfu.class
@@ -529,6 +533,7 @@ com/google/android/gms/internal/zzx.class
 com/google/ads/mediation/MediationAdapter.class
 com/google/android/gms/internal/zzch.class
 com/google/android/gms/internal/zzhb.class
+com/adedo/ADedo$2.class
 com/facebook/FacebookSdk.class
 com/google/android/gms/fitness/Fitness.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable$ArrowDirection.class
@@ -538,6 +543,7 @@ com/google/android/gms/maps/StreetViewPanoramaView.class
 android/support/v7/widget/RecyclerView$ItemAnimator$AdapterChanges.class
 android/support/v7/widget/RecyclerView$3.class
 bolts/AggregateException.class
+com/facebook/GraphRequestAsyncTask.class
 android/support/v7/widget/LinearLayoutCompat.class
 com/google/android/gms/appindexing/AppIndexApi.class
 android/support/v4/media/MediaBrowserCompat$ItemCallback.class
@@ -613,7 +619,6 @@ com/google/android/gms/internal/zzft.class
 com/adedo/Terminos.class
 com/google/android/gms/location/places/PlaceFilter.class
 android/support/v4/app/FragmentManagerState.class
-com/adedo/AdapterDirectivos.class
 com/adedo/Item_calif.class
 com/prolificinteractive/materialcalendarview/MaterialCalendarView$LayoutParams.class
 com/google/android/gms/location/GeofencingApi.class
@@ -681,6 +686,7 @@ android/support/v4/view/ViewCompat$ViewCompatImpl.class
 com/google/android/gms/internal/zzhx.class
 com/google/android/gms/internal/zzgc.class
 com/prolificinteractive/materialcalendarview/format/MonthArrayTitleFormatter.class
+com/facebook/GraphRequest$GraphJSONObjectCallback.class
 com/google/android/gms/internal/zzz.class
 android/support/v4/widget/EdgeEffectCompat.class
 org/apache/http/client/ResponseHandler.class

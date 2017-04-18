@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
@@ -18,6 +19,7 @@ import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.Profile;
+import com.facebook.ProfileTracker;
 import com.facebook.appevents.AppEventsLogger;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
@@ -97,6 +99,9 @@ public class ADedo extends Activity {
         loginButton.setReadPermissions(Arrays.asList("public_profile, email"));
 
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+
+            private ProfileTracker mProfileTracker;
+
             @Override
             public void onSuccess(LoginResult loginResult) {
 
@@ -114,7 +119,24 @@ public class ADedo extends Activity {
                                     String first_name = (object.has("first_name")) ? object.getString("first_name") : "";
                                     String last_name = (object.has("last_name")) ? object.getString("last_name") : "";
 
-                                    String facebookPrifle = Profile.getCurrentProfile().getLinkUri().toString();
+                                    String facebookPrifle = "";
+                                    if(Profile.getCurrentProfile() == null) {
+                                        mProfileTracker = new ProfileTracker() {
+                                            @Override
+                                            protected void onCurrentProfileChanged(Profile profile, Profile profile2) {
+                                                // profile2 is the new profile
+                                                Log.v("facebook - profile", profile2.getFirstName());
+                                                mProfileTracker.stopTracking();
+                                            }
+                                        };
+                                        // no need to call startTracking() on mProfileTracker
+                                        // because it is called by its constructor, internally.
+                                    }
+                                    else {
+                                        facebookPrifle = Profile.getCurrentProfile().getLinkUri().toString();
+                                        Log.v("facebook - profile",  Profile.getCurrentProfile().getFirstName());
+                                    }
+
 
                                     SharedPreferences settings = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
                                     SharedPreferences.Editor prefEditor = settings.edit();
@@ -156,6 +178,22 @@ public class ADedo extends Activity {
             }
 
         });
+    }
+
+    private void fetchProfile() {
+        GraphRequest request = GraphRequest.newMeRequest(
+                AccessToken.getCurrentAccessToken(),
+                new GraphRequest.GraphJSONObjectCallback() {
+                    @Override
+                    public void onCompleted(JSONObject object, GraphResponse response) {
+                        // this is where you should have the profile
+                        Log.v("fetched info", object.toString());
+                    }
+                });
+        Bundle parameters = new Bundle();
+        parameters.putString("fields", "id,name,link"); //write the fields you need
+        request.setParameters(parameters);
+        request.executeAsync();
     }
 
     @Override

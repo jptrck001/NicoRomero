@@ -93,29 +93,6 @@ public class AdapterDirectivos extends BaseAdapter {
                 }
 
                 activity.startActivity(emailIntent);
-
-
-                //Facebook messenger POC
-                /*String text = activity.getResources().getString(R.string.message_facebook);
-
-                Uri uri = Uri.parse("fb-messenger://user/");
-                uri = ContentUris.withAppendedId(uri, Long.parseLong("10209292729105833"));
-
-                Intent sendIntent = new Intent(Intent.ACTION_VIEW, uri);
-
-                sendIntent.setAction(Intent.ACTION_SEND);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, text);
-                sendIntent.setType("text/plain");
-                sendIntent.setPackage("https://www.facebook.com/messages/");
-                //startActivity(intent);
-
-                try {
-                    activity.startActivity(sendIntent);
-                }
-                catch (android.content.ActivityNotFoundException ex) {
-                    Toast.makeText(activity,"Please Install Facebook Messenger", Toast.LENGTH_LONG).show();
-                }*/
-
             }
         });
 

@@ -21,30 +21,20 @@ import org.apache.http.client.params.CookiePolicy;
 import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.DefaultHttpClient;
 
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.adedo.AdapterDirectivos;
-
-import org.apache.http.params.CoreProtocolPNames;
-import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 import java.util.Vector;
 
@@ -57,7 +47,7 @@ import okhttp3.Response;
  */
 public class DayTrips_Activity extends Activity {
 
-    private ListView trips_day_list;
+    private RecyclerView trips_day_list;
     private String data;
     private JSONArray ja;
     private Vector<String> listaview = new Vector<String>();
@@ -76,7 +66,7 @@ public class DayTrips_Activity extends Activity {
         setContentView(R.layout.list_calendar_day);
 
         publicados = (TextView) findViewById(R.id.publicados);
-        trips_day_list = (ListView) findViewById(R.id.trips_day_list);
+        trips_day_list = (RecyclerView) findViewById(R.id.trips_day_list);
 
         empty_list = (RelativeLayout) findViewById(R.id.empty_list);
 
@@ -173,10 +163,11 @@ public class DayTrips_Activity extends Activity {
     }
 
     public void listar() {
-        // Creo el adapter personalizado
-        AdapterDirectivos adapter = new AdapterDirectivos(this, tripsSet, this);
-        // Lo aplico
+        DayTripsAdapter adapter = new DayTripsAdapter(this, tripsSet);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
+        trips_day_list.setLayoutManager(linearLayoutManager);
         trips_day_list.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
     }
 
 
