@@ -1,26 +1,14 @@
 package com.adedo;
 
-import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
+import android.app.FragmentManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 
 import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.params.CookiePolicy;
-import org.apache.http.impl.client.BasicResponseHandler;
-import org.apache.http.impl.client.DefaultHttpClient;
-
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -42,10 +30,15 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
+import static com.adedo.Constants.EMAIL;
+import static com.adedo.Constants.GPLUS_ARGUMENTS;
+import static com.adedo.Constants.NAME;
+import static com.adedo.Constants.PROFILE_PIC;
+
 /**
  * Created by Rulo-PC on 23/4/2016.
  */
-public class DayTrips_Activity extends Activity {
+public class DayTrips_Activity extends Activity implements DayTripsAdapter.IActivityCallBack {
 
     private RecyclerView trips_day_list;
     private String data;
@@ -58,6 +51,8 @@ public class DayTrips_Activity extends Activity {
     private String dia, mes, año;
     private TextView publicados;
     private RelativeLayout empty_list;
+
+    public FragmentManager fm = getFragmentManager();
 
 
     @Override
@@ -163,11 +158,22 @@ public class DayTrips_Activity extends Activity {
     }
 
     public void listar() {
-        DayTripsAdapter adapter = new DayTripsAdapter(this, tripsSet);
+        DayTripsAdapter adapter = new DayTripsAdapter(this, tripsSet, this);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
         trips_day_list.setLayoutManager(linearLayoutManager);
         trips_day_list.setAdapter(adapter);
         adapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void callGplusProfile(String name, String email, String profileUrl){
+        GplusProfiledialogFragment dialogFragment = new GplusProfiledialogFragment ();
+        Bundle bundle = new Bundle();
+        bundle.putString(NAME, name);
+        bundle.putString(EMAIL, email);
+        bundle.putString(PROFILE_PIC, profileUrl);
+        dialogFragment.setArguments(bundle);
+        dialogFragment.show(fm, "Sample Fragment");
     }
 
 

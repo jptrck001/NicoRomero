@@ -1,4 +1,7 @@
-#Mon Apr 17 22:33:17 ART 2017
+#Sat Apr 22 16:57:40 ART 2017
 base.0=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+base.1=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+file.0=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex

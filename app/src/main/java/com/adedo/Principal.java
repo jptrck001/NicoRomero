@@ -10,9 +10,16 @@ import android.view.View;
 import com.facebook.Profile;
 import com.facebook.login.LoginManager;
 
+import static com.adedo.Constants.ProfileUrl;
+import static com.adedo.Constants.fbProfileUrl;
+import static com.adedo.Constants.gPlusProfileUrl;
+
 public class Principal extends Activity {
 
-    private String email;
+    private String email = "";
+    private String fecabookProfile = "";
+    private String gmailUrl = "";
+
     private boolean inserted;
 
     String name, first_name, last_name;
@@ -26,6 +33,18 @@ public class Principal extends Activity {
         if (getIntent().hasExtra("email")) {
             if (getIntent().getExtras().containsKey("email")) {
                 email = getIntent().getExtras().getString("email");
+            }
+        }
+
+        if (getIntent().hasExtra(fbProfileUrl)) {
+            if (getIntent().getExtras().containsKey(fbProfileUrl)) {
+                fecabookProfile = getIntent().getExtras().getString(fbProfileUrl);
+            }
+        }
+
+        if (getIntent().hasExtra(gPlusProfileUrl)) {
+            if (getIntent().getExtras().containsKey(gPlusProfileUrl)) {
+                gmailUrl = getIntent().getExtras().getString(gPlusProfileUrl);
             }
         }
     }
@@ -42,11 +61,18 @@ public class Principal extends Activity {
         first_name = prefs.getString("first_name", "");
         last_name = prefs.getString("last_name", "");
 
-        String facebookPrifle = Profile.getCurrentProfile().getLinkUri().toString();
+        //String facebookPrifle = Profile.getCurrentProfile().getLinkUri().toString();
         SharedPreferences settings = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
         SharedPreferences.Editor prefEditor = settings.edit();
-        prefEditor.putString("facebookPrifle", facebookPrifle);
-        prefEditor.commit();
+
+        if(!fecabookProfile.isEmpty()) {
+            prefEditor.putString(ProfileUrl, fecabookProfile);
+            prefEditor.commit();
+        }else if(!gmailUrl.isEmpty()){
+            prefEditor.putString(ProfileUrl, gmailUrl);
+            prefEditor.commit();
+        }
+
     }
 
     public void chofer(View view) {

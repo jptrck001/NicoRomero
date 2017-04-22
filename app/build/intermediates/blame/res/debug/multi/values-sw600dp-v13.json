@@ -11,13 +11,13 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 233,
+                        "startOffset": 280,
                         "endColumn": 68,
-                        "endOffset": 297
+                        "endOffset": 344
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 189
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 302,
+                        "startOffset": 349,
                         "endColumn": 69,
-                        "endOffset": 367
+                        "endOffset": 414
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 263
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 372,
+                        "startOffset": 419,
                         "endColumn": 73,
-                        "endOffset": 441
+                        "endOffset": 488
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 339
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 446,
+                        "startOffset": 493,
                         "endColumn": 75,
-                        "endOffset": 517
+                        "endOffset": 564
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 398
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 700,
+                        "startOffset": 794,
                         "endColumn": 58,
-                        "endOffset": 754
+                        "endOffset": 848
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 469
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 937,
+                        "startOffset": 1078,
                         "endColumn": 70,
-                        "endOffset": 1003
+                        "endOffset": 1144
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 537
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1008,
+                        "startOffset": 1149,
                         "endColumn": 67,
-                        "endOffset": 1071
+                        "endOffset": 1212
                     }
                 }
             },
@@ -140,17 +140,36 @@
                     "startLine": 9,
                     "startColumn": 4,
                     "startOffset": 542,
-                    "endColumn": 54,
-                    "endOffset": 592
+                    "endColumn": 72,
+                    "endOffset": 610
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-sw600dp/values-sw600dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 72,
+                        "endOffset": 350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 615,
+                    "endColumn": 54,
+                    "endOffset": 665
+                },
+                "from": {
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1076,
+                        "startOffset": 1217,
                         "endColumn": 54,
-                        "endOffset": 1126
+                        "endOffset": 1267
                     }
                 }
             }

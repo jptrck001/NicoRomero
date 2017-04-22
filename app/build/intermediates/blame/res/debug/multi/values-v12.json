@@ -12,14 +12,14 @@
                     "endOffset": 274
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v12/values-v12.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 234,
+                        "startOffset": 281,
                         "endLine": 6,
                         "endColumn": 12,
-                        "endOffset": 453
+                        "endOffset": 500
                     }
                 }
             },
@@ -33,14 +33,14 @@
                     "endOffset": 474
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v12/values-v12.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 458,
+                        "startOffset": 505,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 653
+                        "endOffset": 700
                     }
                 }
             },
@@ -53,13 +53,13 @@
                     "endOffset": 593
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v12/values-v12.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 658,
+                        "startOffset": 705,
                         "endColumn": 118,
-                        "endOffset": 772
+                        "endOffset": 819
                     }
                 }
             },
@@ -72,13 +72,13 @@
                     "endOffset": 688
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v12/values-v12.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 777,
+                        "startOffset": 824,
                         "endColumn": 94,
-                        "endOffset": 867
+                        "endOffset": 914
                     }
                 }
             }

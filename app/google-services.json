@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "321236216662",
+    "project_id": "adedo-c2d4f"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321236216662:android:31461cefa6efde98",
+        "android_client_info": {
+          "package_name": "com.adedo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321236216662-m1br565gteineojtle7hki4me0rul13e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adedo",
+            "certificate_hash": "27364f7cfdfc81a7399cc4aa40c62f6e669dcd0f"
+          }
+        },
+        {
+          "client_id": "321236216662-q3mh85bimq73a2mdtr4rc68sjfgclagp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuzri4vDAvhCBhqGy0L24ih9lzNMqASN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -11,13 +11,13 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-w720dp/values-w720dp.xml",
+                    "file": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-w720dp/values-w720dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 231,
+                        "startOffset": 278,
                         "endColumn": 76,
-                        "endOffset": 303
+                        "endOffset": 350
                     }
                 }
             }

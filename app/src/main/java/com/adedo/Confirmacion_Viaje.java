@@ -20,6 +20,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static com.adedo.Constants.ProfileUrl;
 import static com.adedo.Utilities.getMonthString;
 
 public class Confirmacion_Viaje extends Activity {
@@ -67,19 +68,31 @@ public class Confirmacion_Viaje extends Activity {
         info.setText(infoToShow);
 
         SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
-        facebook = prefs.getString("facebookPrifle", "");
-        facebook = facebook.trim().toLowerCase();
+        facebook = prefs.getString(ProfileUrl, "");
+        //facebook = facebook.trim().toLowerCase();
 
     }
 
     public void aceptar(View view) {
+
+        SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
+        String profile = prefs.getString(ProfileUrl,"");
+
+        String socialNetwork = "";
+        if(socialNetwork.contains("google")){
+            socialNetwork = "Google";
+        }else{
+            socialNetwork = "Facebook";
+        }
+
+        final String finalSocialNetwork = socialNetwork;
         new Thread(new Runnable() {
             @Override
             public void run() {
                 httpGetData(Utilities.getUrl(getApplicationContext()) + "/registro_viaje.php?mailc=" + mailc + "&diav=" + dia + "&mesv=" + mes +
                         "&anov=" + ano + "&horav=" + hora +
                         "&lugaresv=" + cantidad + "&partidav=" + partida + "&llegadav=" + llegada + "&comentario=" + comentarios + "&perfil=" +
-                        facebook);
+                        facebook + "&socialNetwork=" + finalSocialNetwork);
                 httpGetData(Utilities.getUrl(getApplicationContext()) + "/registro_anotado.php?mailc=" + mailc + "&cantOcupadoa=" + 0);
                 h1.sendEmptyMessage(1);
             }
@@ -88,6 +101,7 @@ public class Confirmacion_Viaje extends Activity {
         Intent i = new Intent(Confirmacion_Viaje.this, Principal.class);
         i.putExtra("email", mailc);
         startActivity(i);
+        finish();
     }
 
     public void atras(View view) {

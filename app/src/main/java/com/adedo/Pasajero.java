@@ -36,6 +36,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import static com.adedo.Chofer.MY_PREFS_NAME;
+import static com.adedo.Constants.ProfileUrl;
 
 public class Pasajero extends Activity {
 
@@ -110,7 +111,7 @@ public class Pasajero extends Activity {
         String first_name = prefs.getString("first_name", "");
         String last_name = prefs.getString("last_name", "");
 
-        facebookp = prefs.getString("facebookPrifle", "");
+        facebookp = prefs.getString(ProfileUrl, "");
         facebookp = facebookp.trim().toLowerCase();
 
         select_date.setOnClickListener(new View.OnClickListener() {

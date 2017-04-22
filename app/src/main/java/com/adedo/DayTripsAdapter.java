@@ -8,13 +8,18 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.Color;
 import android.net.Uri;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,10 +34,12 @@ public class DayTripsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
     protected List<Item_viaje> mItems = new ArrayList<>();
     private Context context;
+    private IActivityCallBack iActivityCallBack;
 
-    public DayTripsAdapter(Context context, Set<Item_viaje> items) {
+    public DayTripsAdapter(Context context, Set<Item_viaje> items, IActivityCallBack activityCallBack) {
         this.context = context;
         mItems.addAll(items);
+        iActivityCallBack = activityCallBack;
     }
 
     @Override
@@ -49,7 +56,7 @@ public class DayTripsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
         if (holder instanceof DayTripViewHolder) {
 
-            DayTripViewHolder dayTripViewHolder = (DayTripViewHolder) holder;
+            final DayTripViewHolder dayTripViewHolder = (DayTripViewHolder) holder;
             final Item_viaje item_viaje = mItems.get(position);
 
             dayTripViewHolder.sendMail.setOnClickListener(new View.OnClickListener() {
@@ -91,7 +98,11 @@ public class DayTripsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                 dayTripViewHolder.viewPrfile.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        getFacebookIntent(item_viaje.getPerfil());
+                        if(item_viaje.getPerfil().contains("google")){
+                            iActivityCallBack.callGplusProfile(item_viaje.getNombre(), item_viaje.getMailc(), item_viaje.getPerfil());
+                        }else {
+                            getFacebookIntent(item_viaje.getPerfil());
+                        }
                     }
                 });
             }
@@ -128,6 +139,7 @@ public class DayTripsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         TextView hora;
         TextView mailValue;
 
+
         public DayTripViewHolder(View v) {
             super(v);
 
@@ -140,7 +152,6 @@ public class DayTripsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             mailValue = (TextView) v.findViewById(R.id.mailValue);
             viewPrfile = (Button) v.findViewById(R.id.viewPrfile);
             sendMail = (Button) v.findViewById(R.id.sendMail);
-
         }
     }
 
@@ -165,5 +176,9 @@ public class DayTripsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         }
 
         context.startActivity(i);
+    }
+
+    public interface IActivityCallBack{
+        void callGplusProfile(String name, String email, String profileUrl);
     }
 }

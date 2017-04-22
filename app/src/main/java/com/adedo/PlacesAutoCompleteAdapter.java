@@ -50,12 +50,12 @@ class PlacesAutoCompleteAdapter extends ArrayAdapter<String> implements Filterab
 
                     FilteredResultList = new ArrayList<String>();
                     for(int i = 0; i< resultList.size(); i++){
-                        if(resultList.get(i).toString().contains("Argentina")) {
+                        //if(resultList.get(i).toString().contains("Argentina")) {
                             if(FilteredResultList.size() <= 0)
                                 FilteredResultList.add(0, resultList.get(i).toString());
                             else
                                 FilteredResultList.add(FilteredResultList.size(), resultList.get(i).toString());
-                        }
+                        //}
                     }
                     // Footer
                     //resultList.add("footer");

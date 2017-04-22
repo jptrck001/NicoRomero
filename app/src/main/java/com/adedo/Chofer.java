@@ -33,6 +33,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static com.adedo.Constants.ProfileUrl;
+
 public class Chofer extends Activity {
 
     public final static String MY_PREFS_NAME = "AdedoPref";
@@ -118,7 +120,7 @@ public class Chofer extends Activity {
         String last_name = prefs.getString("last_name", "");
 
 
-        facebook = prefs.getString("facebookPrifle","");
+        facebook = prefs.getString(ProfileUrl,"");
         facebook = facebook.trim().toLowerCase();
 
         select_date.setOnClickListener(new View.OnClickListener() {
