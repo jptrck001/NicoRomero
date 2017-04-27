@@ -36,9 +36,9 @@ public class DayTripsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
     private Context context;
     private IActivityCallBack iActivityCallBack;
 
-    public DayTripsAdapter(Context context, Set<Item_viaje> items, IActivityCallBack activityCallBack) {
+    public DayTripsAdapter(Context context, List<Item_viaje> items, IActivityCallBack activityCallBack) {
         this.context = context;
-        mItems.addAll(items);
+        mItems = items;
         iActivityCallBack = activityCallBack;
     }
 
@@ -114,6 +114,8 @@ public class DayTripsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                 dayTripViewHolder.comentariosValue.setVisibility(View.VISIBLE);
                 dayTripViewHolder.comentariosValue.setText(item_viaje.getComentarios());
             }
+
+            dayTripViewHolder.nombre.setText(item_viaje.getNombre().split(",")[0]);
 
             dayTripViewHolder.partida.setText(item_viaje.getPartida());
             dayTripViewHolder.llegada.setText(item_viaje.getLlegada());

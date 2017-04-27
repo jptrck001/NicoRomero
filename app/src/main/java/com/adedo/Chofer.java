@@ -215,6 +215,7 @@ public class Chofer extends Activity {
                      .show();
             else {
 
+                insertInSharePref();
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
@@ -257,7 +258,6 @@ public class Chofer extends Activity {
             e.printStackTrace();
         }
 
-        insertInSharePref();
         return response;
     }
 }

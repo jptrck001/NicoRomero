@@ -21,8 +21,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.Vector;
 
@@ -46,7 +48,8 @@ public class DayTrips_Activity extends Activity implements DayTripsAdapter.IActi
     private Vector<String> listaview = new Vector<String>();
     private ArrayList<Item_viaje> arraydir = new ArrayList<Item_viaje>();
     private static Date day;
-    private Set<Item_viaje> tripsSet;
+    //private Set<Item_viaje> tripsSet;
+    private List<Item_viaje> tripList;
     private Handler h0;
     private String dia, mes, año;
     private TextView publicados;
@@ -107,8 +110,9 @@ public class DayTrips_Activity extends Activity implements DayTripsAdapter.IActi
                         }
 
                         if (mailc != null && !mailc.isEmpty()) {
-                            if (((lugaresv - lugares_ocupados) > 0 || (lugaresv == 100)) && (!aMailc.contains(mailc + "," + (String.valueOf(hora)))
-                            )) {
+                            if ((lugaresv - lugares_ocupados) > 0 || (lugaresv == 100))
+                                    //&& (!aMailc.contains(mailc + "," + (String.valueOf(hora)))
+                             {
                                 aMailc.add(mailc + "," + (String.valueOf(hora)));
                                 Item_viaje item = new Item_viaje(getResources().getDrawable(R.drawable.ic_launcher_dorado),
                                         nombrec, (lugaresv - lugares_ocupados), mailc, lugares_ocupados, facebookc, vehiculoc,
@@ -117,8 +121,7 @@ public class DayTrips_Activity extends Activity implements DayTripsAdapter.IActi
                             }
                         }
                     }
-
-                    tripsSet = new HashSet<>(arraydir);
+                    tripList = arraydir;
                     listar();
 
                     if (arraydir.size() <= 0) {
@@ -158,7 +161,7 @@ public class DayTrips_Activity extends Activity implements DayTripsAdapter.IActi
     }
 
     public void listar() {
-        DayTripsAdapter adapter = new DayTripsAdapter(this, tripsSet, this);
+        DayTripsAdapter adapter = new DayTripsAdapter(this, tripList, this);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
         trips_day_list.setLayoutManager(linearLayoutManager);
         trips_day_list.setAdapter(adapter);

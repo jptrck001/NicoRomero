@@ -203,6 +203,7 @@ public class Pasajero extends Activity {
                      .show();
             else {
 
+                insertInSharePref();
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
@@ -261,8 +262,6 @@ public class Pasajero extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        insertInSharePref();
 
         return response;
     }

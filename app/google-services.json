@@ -13,6 +13,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "321236216662-u2mbta4s8jrv1echpv795n14fl8jrv7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adedo",
+            "certificate_hash": "ada3a9ebba847f2ebcaccdfbb3565f1bc9526b65"
+          }
+        },
+        {
           "client_id": "321236216662-m1br565gteineojtle7hki4me0rul13e.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

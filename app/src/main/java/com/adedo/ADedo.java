@@ -129,6 +129,7 @@ public class ADedo extends Activity {
                 Intent i = new Intent(ADedo.this, Principal.class);
                 SharedPreferences prefs = getSharedPreferences(Chofer.MY_PREFS_NAME, MODE_PRIVATE);
 
+
                 String email = prefs.getString("email", "");
                 String name = prefs.getString("name", "");
                 String first_name = prefs.getString("first_name", "");
@@ -176,29 +177,30 @@ public class ADedo extends Activity {
                                     GraphResponse response) {
                                 // Application code
                                 try {
-                                    String email = (object.has("email")) ? object.getString("email") : "";
-                                    String name = (object.has("name")) ? object.getString("name") : "";
-                                    String first_name = (object.has("first_name")) ? object.getString("first_name") : "";
-                                    String last_name = (object.has("last_name")) ? object.getString("last_name") : "";
+                                    final String email = (object.has("email")) ? object.getString("email") : "";
+                                    final String name = (object.has("name")) ? object.getString("name") : "";
+                                    final String first_name = (object.has("first_name")) ? object.getString("first_name") : "";
+                                    final String last_name = (object.has("last_name")) ? object.getString("last_name") : "";
 
-                                    String facebookPrifle = "";
+                                    final String[] facebookPrifle = {""};
                                     if (Profile.getCurrentProfile() == null) {
                                         mProfileTracker = new ProfileTracker() {
                                             @Override
                                             protected void onCurrentProfileChanged(Profile profile, Profile profile2) {
                                                 // profile2 is the new profile
                                                 Log.v("facebook - profile", profile2.getFirstName());
+                                                facebookPrifle[0] = profile.getCurrentProfile().getLinkUri().toString();
+                                                goToProfile(name, email, first_name, last_name, facebookPrifle[0], true);
                                                 mProfileTracker.stopTracking();
                                             }
                                         };
                                         // no need to call startTracking() on mProfileTracker
                                         // because it is called by its constructor, internally.
                                     } else {
-                                        facebookPrifle = Profile.getCurrentProfile().getLinkUri().toString();
+                                        facebookPrifle[0] = Profile.getCurrentProfile().getLinkUri().toString();
                                         Log.v("facebook - profile", Profile.getCurrentProfile().getFirstName());
+                                        goToProfile(name, email, first_name, last_name, facebookPrifle[0], true);
                                     }
-
-                                    goToProfile(name, email, first_name, last_name, facebookPrifle, true);
 
                                 } catch (JSONException e) {
                                     e.printStackTrace();
@@ -266,6 +268,8 @@ public class ADedo extends Activity {
 
             goToProfile(personName, email, personName, "", personPhotoUrl, false);
 
+        }else{
+            Toast.makeText(this,"Ocurrió un error al hacer login", Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Apr 22 19:54:03 ART 2017
+#Wed Apr 26 00:20:57 ART 2017
 20.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 143.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 340.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_borderless_material.xml
@@ -42,7 +42,7 @@
 123.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 149.set=ANDROID_RESOURCE
 156.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-50.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_comentarios.xml
+50.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
 327.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 66.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 189.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
@@ -133,7 +133,7 @@
 241.set=ANDROID_RESOURCE
 257.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 104.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
-137.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png
+137.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
 308.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
 47.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_lista_calificaciones.xml
 372.set=ANDROID_RESOURCE
@@ -142,7 +142,7 @@
 295.set=ANDROID_RESOURCE
 384.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 3.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-231.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal.9.png
+231.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_confirmacion__viaje.xml
 402.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
 264.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/activity_pasajero.xml
 297.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/com_facebook_profile_picture_blank_portrait.png
@@ -250,7 +250,7 @@
 146.set=ANDROID_RESOURCE
 285.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 132.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
-303.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+303.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
 16.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 165.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
 148.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
@@ -272,7 +272,7 @@
 326.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media.xml
 222.set=ANDROID_RESOURCE
 39.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-188.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+188.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/place_autocomplete_progress.xml
 65.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
 100.set=ANDROID_RESOURCE
 98.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_white_24.png
@@ -331,12 +331,12 @@
 184.set=ANDROID_RESOURCE
 139.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/atras.png
 140.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-49.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+49.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_comentarios.xml
 409.set=ANDROID_RESOURCE
 392.set=ANDROID_RESOURCE
 36.set=ANDROID_RESOURCE
 50.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-370.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_focused.9.png
+370.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/color/abc_search_url_text.xml
 200.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png
 83.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 386.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
@@ -411,7 +411,7 @@
 57.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 357.set=ANDROID_RESOURCE
 377.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
-207.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/places_ic_search.png
+207.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_setting_dark.png
 203.set=ANDROID_RESOURCE
 158.set=ANDROID_RESOURCE
 241.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
@@ -516,7 +516,7 @@
 332.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 194.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 365.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-212.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_top_material.xml
+212.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
 79.set=ANDROID_RESOURCE
 398.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 228.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
@@ -616,7 +616,7 @@
 354.set=ANDROID_RESOURCE
 139.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 33.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/chofer.png
-336.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_color_highlight_material.xml
+336.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_full_open_on_phone.png
 49.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 277.set=ANDROID_RESOURCE
 198.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/home.png
@@ -651,7 +651,7 @@
 256.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 103.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable/messenger_button_white_bg_selector.xml
 289.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-136.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/camara.png
+136.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png
 307.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_text_cursor_material.xml
 46.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
 169.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/mr_media_route_list_item.xml
@@ -774,7 +774,7 @@
 136.set=ANDROID_RESOURCE
 284.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 131.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_view.xml
-302.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+302.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
 15.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 164.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_lista_viajes.xml
 147.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
@@ -856,7 +856,7 @@
 82.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 385.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 4.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-232.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_confirmacion__viaje.xml
+232.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal.9.png
 403.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/quantum_ic_clear_white_24.png
 265.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_focused.9.png
 298.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_pressed.9.png
@@ -996,7 +996,7 @@
 156.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable/mr_ic_play_dark.xml
 327.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png
 232.set=ANDROID_RESOURCE
-189.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/place_autocomplete_progress.xml
+189.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
 66.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_terminos.xml
 110.set=ANDROID_RESOURCE
 190.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
@@ -1041,7 +1041,7 @@
 61.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 193.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 364.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-211.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+211.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_top_material.xml
 69.set=ANDROID_RESOURCE
 397.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 244.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_disabled.9.png
@@ -1053,7 +1053,7 @@
 141.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 46.set=ANDROID_RESOURCE
 51.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-371.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/color/abc_search_url_text.xml
+371.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_focused.9.png
 354.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 201.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_search_view.xml
 84.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
@@ -1125,7 +1125,7 @@ count=413
 58.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 367.set=ANDROID_RESOURCE
 378.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
-208.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_setting_dark.png
+208.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/places_ic_search.png
 213.set=ANDROID_RESOURCE
 168.set=ANDROID_RESOURCE
 242.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
@@ -1134,7 +1134,7 @@ count=413
 344.set=ANDROID_RESOURCE
 138.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 32.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
-335.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_full_open_on_phone.png
+335.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_color_highlight_material.xml
 48.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
 267.set=ANDROID_RESOURCE
 197.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_action_bar_item_background_material.xml
@@ -1165,7 +1165,7 @@ count=413
 272.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_media_pause.png
 102.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png
 288.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_
-135.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+135.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/camara.png
 306.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_internal_bg.xml
 45.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_media_route_on_mono_dark.png
 168.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_chronometer.xml
