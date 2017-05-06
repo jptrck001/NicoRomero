@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/signin_button_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/fakeButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/signin_button_fb"
+        android:layout_alignBottom="@+id/signin_button_fb"
+        android:layout_alignEnd="@+id/signin_button_fb"
+        android:layout_alignLeft="@+id/signin_button_fb"
+        android:layout_alignRight="@+id/signin_button_fb"
+        android:layout_alignStart="@+id/signin_button_fb"
+        android:layout_alignTop="@+id/signin_button_fb">
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/signin_button_fb"
+        android:layout_marginBottom="20dp"
+        android:layout_alignLeft="@+id/signin_button_fb"
+        android:layout_alignStart="@+id/signin_button_fb"
+        android:layout_alignRight="@+id/signin_button_fb"
+        android:layout_alignEnd="@+id/signin_button_fb">
+
+        <RadioButton
+            android:id="@+id/radio_pasajero"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Pasajero"
+            android:textSize="11sp"
+            android:layout_above="@+id/signin_button_fb"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/radio_chofer"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Chofer"
+            android:textSize="11sp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:text="Regístrate!"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="98dp"
+        android:id="@+id/register_tv"/>
+
+</RelativeLayout>

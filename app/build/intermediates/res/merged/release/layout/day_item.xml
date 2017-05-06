@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gplusLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <include layout="@layout/gplus_user_profile">
+        </include>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/trip_info_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Nombre"
+            android:id="@+id/Nombre"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Ciudad Origen:"
+            android:id="@+id/origen"
+            android:layout_below="@+id/Nombre"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Destino:"
+            android:id="@+id/Destino"
+            android:layout_below="@+id/origen"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Horario:"
+            android:id="@+id/Horario"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/hour_value"
+            android:layout_toLeftOf="@+id/dest_value"
+            android:layout_toStartOf="@+id/dest_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/name_value"
+            android:layout_alignTop="@+id/Nombre"
+            android:layout_alignLeft="@+id/dest_value"
+            android:layout_alignStart="@+id/dest_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/origen_value"
+            android:layout_alignTop="@+id/origen"
+            android:layout_toRightOf="@+id/origen"
+            android:layout_toEndOf="@+id/origen"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/dest_value"
+            android:layout_alignTop="@+id/Destino"
+            android:layout_toRightOf="@+id/Destino"
+            android:layout_toEndOf="@+id/Destino"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/hour_value"
+            android:layout_below="@+id/Destino"
+            android:layout_toRightOf="@+id/Horario"
+            android:layout_toEndOf="@+id/Horario"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tipo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/sendMail"
+            android:layout_alignEnd="@+id/sendMail"
+            android:background="@color/Orange"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Mail:"
+            android:id="@+id/textView6"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_below="@+id/Horario"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/mailValue"
+            android:layout_alignTop="@+id/textView6"
+            android:layout_toRightOf="@+id/textView6"
+            android:layout_toEndOf="@+id/textView6"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Comentarios:"
+            android:id="@+id/comentarios"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/comentariosValue"
+            android:layout_alignTop="@+id/comentarios"
+            android:layout_toRightOf="@+id/comentarios"
+            android:layout_toEndOf="@+id/comentarios"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Contactar"
+            android:id="@+id/sendMail"
+            android:background="@color/Orange"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:layout_alignTop="@+id/name_value"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Ver Perfil"
+            android:layout_marginTop="10dp"
+            android:id="@+id/viewPrfile"
+            android:background="@color/Orange"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:layout_below="@+id/sendMail"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

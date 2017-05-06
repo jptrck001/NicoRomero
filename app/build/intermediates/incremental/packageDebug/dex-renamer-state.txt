@@ -1,4 +1,4 @@
-#Wed Apr 26 21:51:13 ART 2017
+#Wed Apr 26 21:55:44 ART 2017
 base.0=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.1=classes.dex
 renamed.0=classes2.dex

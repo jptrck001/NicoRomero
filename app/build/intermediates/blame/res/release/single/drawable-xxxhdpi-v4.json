@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_replay_30_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_replay_30_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/places_ic_clear.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/drawable-xxxhdpi-v4/places_ic_clear.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/mcv_action_next.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/ADedoRulo/library/1.3.0/res/drawable-xxxhdpi-v4/mcv_action_next.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_stop_grey600_48.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_stop_grey600_48.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_refresh_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_refresh_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_play_arrow_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_play_arrow_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/powered_by_google_dark.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/drawable-xxxhdpi-v4/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_play_arrow_grey600_48.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_play_arrow_grey600_48.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_cast_white_36.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_cast_white_36.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_skip_next_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_skip_next_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_replay_10_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_replay_10_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_forward_10_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_forward_10_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_pause_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_pause_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/powered_by_google_light.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/drawable-xxxhdpi-v4/powered_by_google_light.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_stop_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_stop_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_forward_30_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_forward_30_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_skip_previous_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_skip_previous_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/places_ic_search.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/drawable-xxxhdpi-v4/places_ic_search.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_cast_connected_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_cast_connected_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_clear_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_clear_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/mcv_action_previous.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/ADedoRulo/library/1.3.0/res/drawable-xxxhdpi-v4/mcv_action_previous.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_replay_white_24.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_replay_white_24.png"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/quantum_ic_pause_grey600_48.png",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable-xxxhdpi-v4/quantum_ic_pause_grey600_48.png"
+    }
+]

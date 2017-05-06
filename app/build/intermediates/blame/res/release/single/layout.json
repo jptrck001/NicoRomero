@@ -1,0 +1,338 @@
+[
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/item_lista_viajes.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/item_lista_viajes.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/notification_template_big_media.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/messenger_button_send_white_large.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_principal.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_principal.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/mr_media_route_list_item.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/mr_media_route_chooser_dialog.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/messenger_button_send_blue_small.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_confirmacion__viaje.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_confirmacion__viaje.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_chofer.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_chofer.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/list_calendar_day.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/list_calendar_day.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/com_facebook_activity_layout.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/cast_mini_controller.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/layout/cast_mini_controller.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_comentarios.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_comentarios.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/cast_tracks_chooser_dialog_layout.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/layout/cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_chofer_viaje.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_chofer_viaje.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/calendar_activity.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/calendar_activity.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/messenger_button_send_blue_large.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_register.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_lista_viajes.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_lista_viajes.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/gplus_user_profile.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/gplus_user_profile.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/cast_help_text.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/layout/cast_help_text.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_viajes_fecha_actual.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_viajes_fecha_actual.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_pasajero.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_pasajero.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/messenger_button_send_white_small.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_terminos.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_terminos.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/item_lista_viajes_fecha_actual.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/item_lista_viajes_fecha_actual.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_viaje_actual_pasajero.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_viaje_actual_pasajero.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_cuando_viajas.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_cuando_viajas.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/messenger_button_send_white_round.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_viaje.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_viaje.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_lista_calificaciones.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_lista_calificaciones.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/item_lista_calificaciones.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/item_lista_calificaciones.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/place_autocomplete_item_prediction.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/layout/place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_adedo.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_adedo.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_calificacion.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_calificacion.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/cast_intro_overlay.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/layout/cast_intro_overlay.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/activity_pasajero_viaje.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/activity_pasajero_viaje.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/notification_media_action.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/item_comentarios.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/item_comentarios.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/place_autocomplete_item_powered_by_google.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/crear_viaje_pasajero.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/crear_viaje_pasajero.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/com_facebook_login_fragment.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/notification_template_media.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/place_autocomplete_fragment.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/layout/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/autocomplete_list_item.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/autocomplete_list_item.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/messenger_button_send_blue_round.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/layout/messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/notification_template_lines.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/mr_media_route_controller_material_dialog_b.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/day_item.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/src/main/res/layout/day_item.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/layout/place_autocomplete_progress.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/layout/place_autocomplete_progress.xml"
+    }
+]
