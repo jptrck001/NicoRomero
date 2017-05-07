@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat May 06 18:35:12 ART 2017
+#Sat May 06 19:12:22 ART 2017
 835.base=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-release.ap_
 100.set=ANDROID_RESOURCE
 57.file=/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/resources-release.ap_/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png

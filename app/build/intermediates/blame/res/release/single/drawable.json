@@ -32,12 +32,12 @@
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_mini_controller_pause.xml"
     },
     {
-        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable/com_facebook_button_send_background.xml",
-        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/drawable/com_facebook_button_send_background.xml"
-    },
-    {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_connecting.xml",
         "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.2.1/res/drawable/cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable/com_facebook_button_send_background.xml",
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.4.0/res/drawable/com_facebook_button_send_background.xml"
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",

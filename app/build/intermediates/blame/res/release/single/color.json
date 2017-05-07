@@ -1,7 +1,7 @@
 [
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/color/mcv_text_date_dark.xml",
-        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/ADedoRulo/library/1.3.0/res/color/mcv_text_date_dark.xml"
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/ADedoRulo/library/1.4.0/res/color/mcv_text_date_dark.xml"
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/color/wallet_primary_text_holo_light.xml",
@@ -45,7 +45,7 @@
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/color/mcv_text_date_light.xml",
-        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/ADedoRulo/library/1.3.0/res/color/mcv_text_date_light.xml"
+        "source": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/exploded-aar/ADedoRulo/library/1.4.0/res/color/mcv_text_date_light.xml"
     },
     {
         "merged": "/Users/raulstriglio/Documents/Android Projects/ADedoRulo/ADedoRulo/app/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
