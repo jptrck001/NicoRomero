@@ -15,4 +15,5 @@ public class Terminos extends Activity {
 	public void anterior(View view){
     	finish();
     }
+
 }
