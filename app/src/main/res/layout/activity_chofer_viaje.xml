@@ -1,9 +1,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Chofer_viaje"
-    android:background="#fff" >
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                tools:context=".Chofer_viaje"
+                android:background="#fff">
 
     <LinearLayout
         android:orientation="vertical"
@@ -41,6 +42,17 @@
                         android:background="@color/Orange"
                         android:textColor="#ffffff"
                         android:onClick="crear" />
+
+                    <com.google.android.gms.ads.NativeExpressAdView
+                        android:id="@+id/adView_chofer"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        ads:adUnitId="ca-app-pub-4314610379659678/2219115141"
+                        android:layout_gravity="center"
+                        ads:adSize="300x230">
+                    </com.google.android.gms.ads.NativeExpressAdView>
+
                     
                 </LinearLayout>
             </ScrollView>

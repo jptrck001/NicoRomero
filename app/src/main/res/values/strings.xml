@@ -25,4 +25,6 @@
 
     <string name="message_facebook">Hola!, me contacto desde la App A Dedo para coordinar un viaje</string>
 
+    <string name="admob_app_id">ca-app-pub-4314610379659678~8265648746</string>
+
 </resources>

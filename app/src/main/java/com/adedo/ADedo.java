@@ -41,6 +41,8 @@ import static com.adedo.Constants.ProfileUrl;
 import static com.adedo.Constants.fbProfileUrl;
 import static com.adedo.Constants.gPlusProfileUrl;
 
+import com.google.android.gms.ads.MobileAds;
+
 
 public class ADedo extends Activity {
 
@@ -66,6 +68,7 @@ public class ADedo extends Activity {
         AppEventsLogger.activateApp(this);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
+        MobileAds.initialize(this, getString(R.string.admob_app_id));
         initializeFacebook();
         initGooglePlus();
 
@@ -243,9 +246,9 @@ public class ADedo extends Activity {
         i.putExtra("first_name", first_name);
         i.putExtra("last_name", last_name);
 
-        if(fromFace){
+        if (fromFace) {
             i.putExtra(fbProfileUrl, profileUrl);
-        }else{
+        } else {
             i.putExtra(gPlusProfileUrl, profileUrl);
         }
 
@@ -261,15 +264,15 @@ public class ADedo extends Activity {
             String personName = acct.getDisplayName();
 
             String personPhotoUrl = "";
-            if(acct.getPhotoUrl() != null) {
+            if (acct.getPhotoUrl() != null) {
                 personPhotoUrl = acct.getPhotoUrl().toString();
             }
             String email = acct.getEmail();
 
             goToProfile(personName, email, personName, "", personPhotoUrl, false);
 
-        }else{
-            Toast.makeText(this,"Ocurrió un error al hacer login", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "Ocurrió un error al hacer login", Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -14,6 +14,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.NativeExpressAdView;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 
@@ -56,6 +60,7 @@ public class DayTrips_Activity extends Activity implements DayTripsAdapter.IActi
     private RelativeLayout empty_list;
 
     public FragmentManager fm = getFragmentManager();
+    private NativeExpressAdView mAdView;
 
 
     @Override
@@ -67,6 +72,11 @@ public class DayTrips_Activity extends Activity implements DayTripsAdapter.IActi
         trips_day_list = (RecyclerView) findViewById(R.id.trips_day_list);
 
         empty_list = (RelativeLayout) findViewById(R.id.empty_list);
+
+        //Configure and initialize AdView
+        mAdView = (NativeExpressAdView) findViewById(R.id.adView_viajes);
+        AdRequest request = new AdRequest.Builder().build();
+        mAdView.loadAd(request);
 
         dia = getIntent().getStringExtra("dia");
         mes = ViajeActualPasajero.convertirMes(Integer.valueOf(getIntent().getStringExtra("mes")));

@@ -1,43 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
 
 
     <TextView
+        android:id="@+id/publicados"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Viajes publicado el"
-        android:id="@+id/publicados"
-        android:textColor="@android:color/white"
+        android:background="@color/Orange"
         android:gravity="center_vertical"
-        android:textStyle="bold"
-        android:background="@color/Orange" />
+        android:text="Viajes publicado el"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:id="@+id/adView_viajes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="300x230"
+        ads:adUnitId="ca-app-pub-4314610379659678/2219115141">
+    </com.google.android.gms.ads.NativeExpressAdView>
+
 
     <RelativeLayout
         android:id="@+id/empty_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone">
+
         <TextView
+            android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/empty_list"
-            android:id="@+id/textView7"
-            android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:textStyle="bold"
-            android:textSize="21dp" />
+            android:layout_centerVertical="true"
+            android:text="@string/empty_list"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="21dp"
+            android:textStyle="bold"/>
     </RelativeLayout>
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/trips_day_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/trips_day_list"
-        android:visibility="visible" />
-
+        android:visibility="visible"/>
 
 
 </LinearLayout>

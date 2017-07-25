@@ -16,12 +16,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.style.ForegroundColorSpan;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.NativeExpressAdView;
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 import com.prolificinteractive.materialcalendarview.DayViewDecorator;
 import com.prolificinteractive.materialcalendarview.DayViewFacade;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
 import com.prolificinteractive.materialcalendarview.OnMonthChangedListener;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -34,6 +37,8 @@ import butterknife.ButterKnife;
 public class Calendar_activity extends AppCompatActivity implements OnDateSelectedListener, OnMonthChangedListener {
 
     private static final java.text.DateFormat FORMATTER = SimpleDateFormat.getDateInstance();
+
+    private NativeExpressAdView mAdView;
 
     @Bind(R.id.calendarView)
     MaterialCalendarView widget;
@@ -48,14 +53,18 @@ public class Calendar_activity extends AppCompatActivity implements OnDateSelect
         ButterKnife.bind(this);
         widget.setOnDateChangedListener(this);
         widget.setOnMonthChangedListener(this);
-        //widget.addDecorator(new OneDayDecorator());
+
+        //Configure and initialize AdView
+        mAdView = (NativeExpressAdView) findViewById(R.id.adView_calendar);
+        AdRequest request = new AdRequest.Builder().build();
+        mAdView.loadAd(request);
     }
 
     @Override
     public void onDateSelected(@NonNull MaterialCalendarView widget, @Nullable CalendarDay date, boolean selected) {
-        Intent i = new Intent(Calendar_activity.this,DayTrips_Activity.class);
+        Intent i = new Intent(Calendar_activity.this, DayTrips_Activity.class);
         i.putExtra("dia", String.valueOf(date.getDay()));
-        i.putExtra("mes",String.valueOf(date.getMonth()));
+        i.putExtra("mes", String.valueOf(date.getMonth()));
         i.putExtra("año", String.valueOf(date.getYear()));
         startActivity(i);
     }
