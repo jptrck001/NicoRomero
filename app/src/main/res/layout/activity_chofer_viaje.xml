@@ -50,7 +50,7 @@
                         android:layout_height="wrap_content"
                         ads:adUnitId="ca-app-pub-4314610379659678/2219115141"
                         android:layout_gravity="center"
-                        ads:adSize="300x230">
+                        ads:adSize="300x200">
                     </com.google.android.gms.ads.NativeExpressAdView>
 
                     

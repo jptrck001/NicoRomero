@@ -37,7 +37,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            ads:adSize="360x132"
+            android:visibility="visible"
+            ads:adSize="328x132"
             ads:adUnitId="ca-app-pub-4314610379659678/2219115141">
         </com.google.android.gms.ads.NativeExpressAdView>
 
